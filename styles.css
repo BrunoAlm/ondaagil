@@ -1,0 +1,127 @@
+* {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 5px !important;
+}
+
+li {
+    margin-top: 10px;
+    list-style: none;
+    display: inline;
+    transition: transform .2s;
+}
+
+li a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
+
+.contato a:hover {
+    padding-left: 11px;
+    padding-right: 14.9px;
+}
+
+.azulis a {
+    background: #2e328f;
+    color: #fff;
+}
+
+.azulis a:hover {
+    background: #2e328f;
+    color: #fff;
+    padding-left: 9.80px;
+    padding-right: 9.80px;
+    /* padding-left: 4.5px; */
+    /* font-size: 16.5px; */
+}
+
+.planos a:hover{
+    padding-left: 13.40px;
+    padding-right: 13.40px;
+}
+
+.suporte a:hover{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+
+li a:hover {
+    background: #2e328f;
+    color: #fff;
+    font-size: 17px;
+    padding-left: 12px;
+    padding-right: 12px;
+    /* transform: scaleY( 1 1.5); */
+}
+
+.stick {
+    position: fixed;
+    z-index: 2;
+}
+
+.appbar {
+    background-color: #fff;
+    padding: 7px;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.appbar .divider {
+    padding-right: 40px;
+}
+
+
+.w-100 {
+    width: 100vw;
+    height: 85vh;
+    margin-top: 63px;
+    object-fit: cover;
+    filter: opacity(80%) brightness(70%);
+}
+
+.carousel-caption {
+    filter: opacity(100%) brightness(100%);
+    word-spacing: 20px;
+    top: 37vh !important;
+}
+
+.carousel-caption h5 {
+    font-family: "Monoton", cursive;
+    font-size: 70px;
+}
+
+.carousel-control-prev {
+    left: 0;
+    width: 100px !important;
+}
+
+.carousel-control-prev:hover {
+    background-color: rgba(182, 182, 182, 0.178);
+}
+
+.carousel-control-next {
+    right: 0;
+    width: 100px !important;
+}
+
+.carousel-control-next:hover {
+    background-color: rgba(182, 182, 182, 0.178);
+}
