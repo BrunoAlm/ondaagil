@@ -17,19 +17,23 @@
 </head>
 
 <body>
+    <div id="start-anchor"></div>
     <div class="stick">
         <ul class="appbar">
-            <li><img src="./images/logo/ondaagil.png" width="140px"></li>
+            <li><img src="./images/logo/ondaagil.png" width="140px"><a
+                    style="position: absolute; top: 0; left: 30px; opacity: 0; height: 30px;"
+                    href="#start-anchor">-------------</a></li>
             <div class="divider">
                 <li class="sobre"><a href="#sobre">Sobre Nós</a></li>
-                <li class="planos"><a href="#">Planos</a></li>
-                <li class="suporte"><a href="#">Suporte Técnico</a></li>
-                <li class="contato"><a href="#">Contato</a></li>
-                <li class="azulis"><a href="https://www.ondaagilixc.com.br/central_assinante_web/login" target="_blank">Central do Assinante</a></li>
+                <li class="planos"><a href="#planos-anchor">Planos</a></li>
+                <li class="suporte"><a href="#suporte">Suporte Técnico</a></li>
+                <li class="contato"><a href="#contato">Contato</a></li>
+                <li class="azulis"><a href="https://www.ondaagilixc.com.br/central_assinante_web/login"
+                        target="_blank">Central do Assinante</a></li>
             </div>
         </ul>
     </div>
-    
+
 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -72,14 +76,65 @@
         </button>
     </div>
 
-    <div id="sobre" style="height: 100vh"></div>
+    <div id="planos-anchor"></div>
 
-    <!-- <section class="backzada">
-        <img src="./images/bg/bg_1.jpg" alt="">
-        <img src="./images/bg/bg_2.jpg" alt="">
-        <img src="./images/bg/bg_3.jpg" alt="">
-    </section> -->
-    <!-- JavaScript Bundle with Popper -->
+    <div id="planos" style="height: 100vh">
+        <section class="minha-row boxes">
+            <div class="plano1 minha-column zoom estilo">
+                <div class="top-container">
+                    <p class="tipo-plano">PLANO RESIDÊNCIAL</p>
+                    <p class="nome-plano">BASIC</p>
+                    <p class="valor-plano">R$80,00</p>
+                </div>
+                <div class="bottom-container">
+                    <p>R$80,00</p>
+                    <p>BASIC</p>
+                    <p>PLANO RESIDÊNCIAL</p>
+                    <button></button>
+                </div>
+            </div>
+            <div class="plano2 minha-column zoom estilo">
+                <div class="top-container">
+                    <p class="tipo-plano">PLANO RESIDÊNCIAL</p>
+                    <p class="nome-plano">LIGHT</p>
+                    <p class="valor-plano">R$99,90</p>
+                </div>
+                <div class="bottom-container">
+                    <p>R$99,90</p>
+                    <p>LIGHT</p>
+                    <p>PLANO RESIDÊNCIAL</p>
+                    <button></button>
+                </div>
+            </div>
+            <div class="plano3 minha-column zoom estilo">
+                <div class="top-container">
+                    <p class="tipo-plano">PLANO RESIDÊNCIAL</p>
+                    <p class="nome-plano">MAX</p>
+                    <p class="valor-plano">R$119,90</p>
+                </div>
+                <div class="bottom-container">
+                    <p>R$119,90</p>
+                    <p>MAX</p>
+                    <p>PLANO RESIDÊNCIAL</p>
+                    <button></button>
+                </div>
+            </div>
+            <div class="plano4 minha-column zoom estilo">
+                <div class="top-container">
+                    <p class="tipo-plano">PLANO RESIDÊNCIAL</p>
+                    <p class="nome-plano">MESH</p>
+                    <p class="valor-plano">R$149,90</p>
+                </div>
+                <div class="bottom-container">
+                    <p>R$149,90</p>
+                    <p>MESH</p>
+                    <p>PLANO RESIDÊNCIAL</p>
+                    <button></button>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
     </script>
