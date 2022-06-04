@@ -1,0 +1,43 @@
+/* COLOCA OS BOTOES PARA MUDAR DE PLANO (EMPRESARIAL - RESIDENCIAL) NO CENTRO DO BAGULHO */
+#planos .botoes {
+    padding-top: 50px;
+}
+
+/* ORGANIZA OS PLANOS UM DO LADO DO OUTRO */
+#planos .boxes {
+    padding-top: 60px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+/* TAMANHO DO CONTAINER AZUL DOS PLANOS */
+#planos .top-container {
+    height: 180px;
+    width: 260px;
+}
+/* TAMANHO DO CONTAINER BRANCO DOS PLANOS */
+#planos .bottom-container {
+    height: 310px;
+    width: 260px;
+}
+
+/* COLOCA O TITULO SOBRE NOS NO LUGAR CERTO */
+#sobre-nos h1 {
+    font-size:32px;
+    right: 350px;
+    top: 240%;
+}
+
+#sobre-nos p {
+    width: 280px;
+    right: 245px;
+    top: 245%;
+}
+#map {
+    height: 600px;
+    width: 66%;
+    top:150px;
+    margin-left: 65px;
+    margin-top:0px;
+  }
+  
