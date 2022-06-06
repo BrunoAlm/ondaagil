@@ -429,6 +429,18 @@ li a:hover {
     align-items: center;
 }
 
+#contato .contato-content .bloco-azul {
+    display: flex;
+    height: 280px;
+    width: 280px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #2e328f;
+    box-shadow: 0px 0px 12px 2px rgba(138, 138, 138, 0.94);
+    align-items: center;
+}
+
 #contato .contato-content .bloco a {
     color: black;
     text-decoration: none;
