@@ -19,7 +19,6 @@ li {
 /* RETIRA A DECORACAO DO TEXTO DA APPBAR, E ARRUMAR OS BOTOES */
 /* DEIXA A COR DA FONTE EM PRETO */
 li a {
-    font-weight: 400;
     text-decoration: none;
     color: #000;
     border-radius: 7px;
@@ -140,14 +139,10 @@ li a:hover {
     background-color: rgba(182, 182, 182, 0.178);
 }
 
-/* .minha-row {
-    display: flex;
-    flex-direction: row;
-}
 
-.minha-column {
-    border: 1px solid black;
-}  */
+#planos-anchor {
+    padding-bottom: 90px;
+}
 
 /* COLOCA OS BOTOES PARA MUDAR DE PLANO (EMPRESARIAL - RESIDENCIAL) NO CENTRO DO BAGULHO */
 #planos .botoes {
@@ -156,26 +151,26 @@ li a:hover {
 }
 
 #planos .btn-font {
-    font-size: 14px;
+    font-size: 10px;
 }
 
 /*  COLOCA ESTILO NO BOTAO DE PLANOS RESIDENCIAIS */
 #planos .botoes .btn-plan-res {
     margin-right: 12px;
-    padding: 15px;
+    padding: 12px 8px 12px 8px;
     cursor: pointer;
     font-weight: 600;
     border-radius: 20px;
     border: #2e328f solid;
     background-color: #2e328f;
     color: white;
+    cursor: not-allowed;
 }
 
 /*  COLOCA ESTILO NO BOTAO DE PLANOS EMPRESARIAIS */
 #planos .botoes .btn-plan-emp {
     margin-left: 15px;
-
-    padding: 12px;
+    padding: 12px 8px 12px 8px;
     cursor: pointer;
     font-weight: 600;
     border-radius: 20px;
@@ -198,11 +193,6 @@ li a:hover {
     margin-right: 200px;
 }
 
-/* ALTERA O TAMANHO DA FONTE DOS VALORES*/
-.valor-plano {
-    font-size: 18px;
-}
-
 /* ALTERA O TAMANHO E DEIXA EM NEGRITO A FONTE DO NOME */
 .nome-plano {
     font-size: 36px;
@@ -212,6 +202,7 @@ li a:hover {
 /* ALTERA O TAMANHO DA FONTE TIPO */
 .tipo-plano {
     font-size: 12px;
+    font-weight: 800;
 }
 
 /* DA UM ZOOM AO FAZER HOVER NO PLANO */
@@ -256,12 +247,41 @@ li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
+    justify-content: space-around;
     height: 310px;
     width: 210px;
-    padding-top: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
+#planos .bottom-container button {
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: #2e328f 2px solid;
+}
+
+#planos .bottom-container button:hover {
+    transform: scale(1.07);
+    background-color: #2e328f;
+    color: white;
+
+}
+
+#planos .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#planos li {
+    font-weight: 800;
+    border-bottom: black 1px solid;
+    padding-bottom: 5px;
+}
+
 
 /* DEIXA AS BORDAS CIRCULRES E DEIXA COM  */
 #planos .estilo {
@@ -273,28 +293,29 @@ li a:hover {
     box-shadow: 0px 0px 12px 2px rgba(138, 138, 138, 0.94);
 }
 
+#sobre-nos .row {
+    align-items: center;
+}
+
+#sobre-nos .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* COLOCA O TITULO SOBRE NOS NO LUGAR CERTO */
 #sobre-nos h1 {
     font-size: 24px;
     color: #2e328f;
-    position: absolute;
-    justify-content: center;
     font-weight: 800;
     right: 260px;
-    top: 234%;
-    /* padding-left: 1180px;
-    padding-top: 200px; */
 }
 
 #sobre-nos p {
     width: 280px;
     font-size: 14px;
-    position: absolute;
-    justify-content: center;
     text-align: justify;
     text-justify: inter-word;
-    right: 110px;
-    top: 240%;
 }
 
 #map {
@@ -306,8 +327,137 @@ li a:hover {
     border-radius: 20px;
     -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.94);
     box-shadow: 0px 0px 12px 2px rgba(138, 138, 138, 0.94);
-    opacity:50%;
-  }
-  #map:hover {
-    opacity:100%;
-  }
+    opacity: 50%;
+}
+
+#map:hover {
+    opacity: 100%;
+}
+
+
+.descricao-plano {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 60px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.descricao-plano h1 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #2e328f;
+}
+
+.descricao-plano h2 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.desc-icon-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc-icon-row {
+    display: flex;
+    flex-direction: row;
+
+    align-content: center;
+    align-items: flex-end;
+}
+
+.desc-icon-row img {
+    margin-right: 15px;
+}
+
+#contato .contato-content {
+    display: flex;
+}
+
+#contato .contato-content h1 {
+    padding-top: 200px;
+    padding-left: 300px;
+    font-weight: 800;
+    color: #2e328f;
+}
+
+#contato .contato-content h2 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 285px;
+    padding-right: 0px !important;
+    border-bottom: black 1px solid;
+    padding-bottom: 5px;
+}
+
+#contato .contato-content button {
+    padding: 5px 150px 5px 150px;
+    margin-left: 325px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: #2e328f;
+    background-color: #2e328f;
+    color: white;
+    font-weight: 800px;
+}
+
+#contato .contato-content button:hover {
+    transform: scale(1.07);
+}
+
+#contato .contato-content .blocks {
+    margin-top: 100px;
+    margin-left: 520px;
+}
+
+
+#contato .contato-content .bloco {
+    display: flex;
+    height: 280px;
+    width: 280px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 12px 2px rgba(138, 138, 138, 0.94);
+    align-items: center;
+}
+
+#contato .contato-content .bloco a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+#contato .contato-content .bloco .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#contato .contato-content .block2 {
+    height: 280px;
+    width: 280px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 12px 2px rgba(138, 138, 138, 0.94);
+}
+
+#contato .contato-content .blocks h4 {
+    color: #2e328f;
+    font-weight: 800;
+}
+
+#contato .contato-content .blocks h5 {
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}

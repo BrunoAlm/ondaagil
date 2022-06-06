@@ -1,6 +1,14 @@
+#planos-anchor {
+    padding-bottom: 70px;
+}
+
 /* COLOCA OS BOTOES PARA MUDAR DE PLANO (EMPRESARIAL - RESIDENCIAL) NO CENTRO DO BAGULHO */
 #planos .botoes {
     padding-top: 50px;
+}
+
+#planos .btn-font {
+    font-size: 14px;
 }
 
 /* ORGANIZA OS PLANOS UM DO LADO DO OUTRO */
@@ -12,32 +20,81 @@
 
 /* TAMANHO DO CONTAINER AZUL DOS PLANOS */
 #planos .top-container {
-    height: 180px;
+    height: 140px;
     width: 260px;
 }
+
 /* TAMANHO DO CONTAINER BRANCO DOS PLANOS */
 #planos .bottom-container {
-    height: 310px;
+    height: 350px;
     width: 260px;
 }
 
 /* COLOCA O TITULO SOBRE NOS NO LUGAR CERTO */
 #sobre-nos h1 {
-    font-size:32px;
+    font-size: 32px;
     right: 350px;
-    top: 240%;
 }
 
+/* COLOCA O TEXTO NO LUGAR CERTO */
 #sobre-nos p {
     width: 280px;
     right: 245px;
-    top: 250%;
 }
+
+/* COLOCA O MAPA NO LUGAR CERTO */
 #map {
     height: 600px;
-    width: 66%;
-    top:150px;
+    width: 98%;
+    /* top: 150px; */
     margin-left: 65px;
-    margin-top:0px;
-  }
-  
+    margin-top: 0px;
+}
+
+/* ORGANIZA O TEXTO DENTRO DA DIV A BAIXO DOS PLANOS */
+.descricao-plano {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 60px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 60px;
+}
+
+/* ORGANIZA O TEXTO DENTRO DA DIV A BAIXO DOS PLANOS */
+.descricao-plano h2 {
+    margin-top: 5px;
+}
+
+/* ORGANIZA O TEXTO DENTRO DA DIV A BAIXO DOS PLANOS */
+.desc-icon-row img {
+    margin-right: 15px;
+}
+#contato .contato-content {
+    display: flex;
+}
+#contato .contato-content h1{
+    padding-top: 230px;
+    padding-left:300px;
+}
+#contato .contato-content h2{
+    margin-top: 75px;
+    margin-left:300px;
+    padding-right: 0px!important;
+    padding-bottom: 5px;
+}
+#contato .contato-content button{
+    margin-left: 300px;
+    margin-top:30px;
+}
+
+
+#contato .contato-content .blocks {
+    margin-top: 100px;
+    margin-left: 520px;
+}
+
+#contato .contato-content .teste1 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
