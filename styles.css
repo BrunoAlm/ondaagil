@@ -191,8 +191,8 @@ li a:hover {
     cursor: pointer;
     font-weight: 600;
     border-radius: 20px;
-    border: var(--principal) solid;
-    background-color: var(--principal);
+    border: #2e328f solid;
+    background-color: #2e328f;
     color: white;
     cursor: not-allowed;
 }
