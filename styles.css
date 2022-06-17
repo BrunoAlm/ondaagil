@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-/* CORES QUANDO TIVER VISUALIZANDO OS PLANOS RESIDENCIAIS */
+/* CORES QUANDO ABRIR O SITE */
 :root {
     --principal: #2e328f;
     --principal-claro: #8a9ecf;
@@ -15,11 +15,13 @@
     --text-emp: black;
 }
 
+/* CORES QUANDO TIVER VISUALIZANDO OS PLANOS RESIDENCIAIS */
 .res-color:root {
     --principal: #2e328f;
     --principal-claro: #8a9ecf;
     --background-azul: #2e328f;
     --background-vermelho: #f7f5f5;
+    --text-res: white;
 }
 
 /* CORES QUANDO TIVER VISUALIZANDO OS PLANOS EMPRESARIAIS */
