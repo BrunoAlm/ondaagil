@@ -22,9 +22,19 @@ window.initMap = initMap;
 
 // ----------------------------------------------------------------
 // Tentando pra valer
+const btn_res = document.getElementById('btn-res');
+const btn_emp = document.getElementById('btn-emp');
+
 const $html = document.querySelector('html')
-function mudaCores() {
-    $html.classList.toggle('emp-color');
+function mudaCoresEmp() {
+    $html.classList.add('emp-color');
+    btn_emp.style.cursor = 'not-allowed';
+    btn_res.style.cursor = 'pointer';
+}
+function mudaCoresRes() {
+    $html.classList.remove('emp-color');
+    btn_res.style.cursor = 'not-allowed';
+    btn_emp.style.cursor = 'pointer';
 }
 
 // ----------------------------------------------------------------
