@@ -20,43 +20,49 @@ function initMap() {
 
 window.initMap = initMap;   
 
+// ----------------------------------------------------------------
+// Tentando pra valer
+const $html = document.querySelector('html')
+function mudaCores() {
+    $html.classList.toggle('emp-color');
+}
 
 // ----------------------------------------------------------------
 // Maluquice
-var top_container = document.getElementsByClassName('top-container');
-var btn_res = document.getElementById('btn-res');
-var btn_emp = document.getElementById('btn-emp');
-var mudou = false;
+// var top_container = document.getElementsByClassName('top-container');
+// var btn_res = document.getElementById('btn-res');
+// var btn_emp = document.getElementById('btn-emp');
+// var mudou = false;
 
         
-function mudaPlanos() {
-    mudou = true;
-    // btn_res
-    btn_res.style.cursor = 'pointer';
-    btn_res.style.backgroundColor = '#f7f5f5';
-    btn_res.style.color = 'black';
+// function mudaPlanos() {
+//     mudou = true;
+//     // btn_res
+//     btn_res.style.cursor = 'pointer';
+//     btn_res.style.backgroundColor = '#f7f5f5';
+//     btn_res.style.color = 'black';
 
-    // btn_emp
-    btn_emp.style.cursor = 'not-allowed';
-    btn_emp.style.backgroundColor = '#eb1c24';
-    btn_emp.style.color = 'white';
+//     // btn_emp
+//     btn_emp.style.cursor = 'not-allowed';
+//     btn_emp.style.backgroundColor = '#eb1c24';
+//     btn_emp.style.color = 'white';
 
-    var planos_qtd = top_container.length;
-    for (var i = 0; i < planos_qtd; i++) {
-        top_container[i].style.backgroundColor = '#eb1c24';
-    }
+//     var planos_qtd = top_container.length;
+//     for (var i = 0; i < planos_qtd; i++) {
+//         top_container[i].style.backgroundColor = '#eb1c24';
+//     }
 
-    if (mudou) {
-        btn_res.addEventListener("mouseover", function() {
-            this.style.backgroundColor = '#2e328f';
-            this.style.color = 'white';
-            });
-        btn_res.addEventListener("mouseout", function() {
-            this.style.backgroundColor = '#f7f5f5';
-            this.style.color = 'black';
-            });
-     }
-}
+//     if (mudou) {
+//         btn_res.addEventListener("mouseover", function() {
+//             this.style.backgroundColor = '#2e328f';
+//             this.style.color = 'white';
+//             });
+//         btn_res.addEventListener("mouseout", function() {
+//             this.style.backgroundColor = '#f7f5f5';
+//             this.style.color = 'black';
+//             });
+//      }
+// }
  
     
   

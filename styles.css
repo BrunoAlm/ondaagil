@@ -4,8 +4,16 @@
     margin: 0;
     padding: 0;
 }
+/* CORES QUANDO TIVER VISUALIZANDO OS PLANOS RESIDENCIAIS */
 :root {
-    --azul-botao: #2e328f;
+    --principal: #2e328f;
+    --principal-claro: #8a9ecf;
+}
+
+/* CORES QUANDO TIVER VISUALIZANDO OS PLANOS EMPRESARIAIS */
+.emp-color:root {
+    --principal: #eb1c24;
+    --principal-claro: #e09ea0 ;
 }
 
 body {
@@ -54,7 +62,7 @@ li .a-sem-hover:hover {
 
 /* DEIXA O BOTAO DO CENTRAL DO ASSINANTE FIXO NA COR AZUL */
 .azulis a {
-    background: #2e328f;
+    background: var(--principal);
     color: #fff;
 }
 
@@ -79,7 +87,7 @@ li .a-sem-hover:hover {
 /* QUANDO DAR HOVER NOS BOTOES DA APPBAR ELES GANHAM O FUNDO AZULIS E A COR DA FONTE FICA BRANCA */
 /* TAMBEM GANHAM UM PADDING PARA NAO FICAR MEXENDO E BUGA OS ZOI */
 li a:hover {
-    background: #2e328f;
+    background: var(--principal);
     color: #fff;
     font-size: 17px;
     padding-left: 12px;
@@ -179,8 +187,8 @@ li a:hover {
     cursor: pointer;
     font-weight: 600;
     border-radius: 20px;
-    border: #2e328f solid;
-    background-color: #2e328f;
+    border: var(--principal) solid;
+    background-color: var(--principal);
     color: white;
     cursor: not-allowed;
 }
@@ -238,7 +246,7 @@ li a:hover {
 
 /* MUDA A PARA A COR AZUL AO FAZER HOVER NOS PLANOS */
 #planos .zoom:hover>.top-container {
-    background-color: #2e328f;
+    background-color: var(--principal);
 }
 
 /* TAMANHO DO CONTAINER AZUL DOS PLANOS */
@@ -252,7 +260,7 @@ li a:hover {
     justify-content: center;
     height: 110px;
     width: 210px;
-    background-color: #8a9ecf;
+    background-color: var(--principal-claro);
     color: #fff;
 }
 
@@ -279,12 +287,12 @@ li a:hover {
     border-radius: 10px;
     background-color: white;
     color: black;
-    border: #2e328f 2px solid;
+    border: var(--principal) 2px solid;
 }
 
 #planos .bottom-container button:hover {
     transform: scale(1.07);
-    background-color: #2e328f;
+    background-color: var(--principal);
     color: white;
 
 }
@@ -321,7 +329,7 @@ li a:hover {
 /* COLOCA O TITULO SOBRE NOS NO LUGAR CERTO */
 #sobre-nos h1 {
     font-size: 24px;
-    color: #2e328f;
+    color: var(--principal);
     font-weight: 800;
     right: 260px;
 }
@@ -364,7 +372,7 @@ li a:hover {
 .descricao-plano h1 {
     font-size: 20px;
     font-weight: 800;
-    color: #2e328f;
+    color: var(--principal);
 }
 
 .descricao-plano h2 {
@@ -398,7 +406,7 @@ li a:hover {
     padding-top: 200px;
     padding-left: 300px;
     font-weight: 800;
-    color: #2e328f;
+    color: var(--principal);
 }
 
 #contato .contato-content h2 {
@@ -415,8 +423,8 @@ li a:hover {
     margin-left: 325px;
     margin-top: 20px;
     border-radius: 10px;
-    border-color: #2e328f;
-    background-color: #2e328f;
+    border-color: var(--principal);
+    background-color: var(--principal);
     color: white;
     font-weight: 800px;
 }
@@ -450,7 +458,7 @@ li a:hover {
     border-radius: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    background-color: #2e328f;
+    background-color: var(--principal);
     box-shadow: 0px 0px 12px 2px rgba(138, 138, 138, 0.94);
     align-items: center;
 }
@@ -478,7 +486,7 @@ li a:hover {
 }
 
 #contato .contato-content .blocks h4 {
-    color: #2e328f;
+    color: var(--principal);
     font-weight: 800;
 }
 
