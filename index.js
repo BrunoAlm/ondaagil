@@ -27,12 +27,15 @@ const btn_emp = document.getElementById('btn-emp');
 
 const $html = document.querySelector('html')
 function mudaCoresEmp() {
-    $html.classList.add('emp-color');
+    $html.classList.remove('res-color');
+    $html.classList.toggle('emp-color');
     btn_emp.style.cursor = 'not-allowed';
     btn_res.style.cursor = 'pointer';
 }
+
 function mudaCoresRes() {
     $html.classList.remove('emp-color');
+    $html.classList.toggle('res-color');
     btn_res.style.cursor = 'not-allowed';
     btn_emp.style.cursor = 'pointer';
 }

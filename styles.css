@@ -9,12 +9,27 @@
 :root {
     --principal: #2e328f;
     --principal-claro: #8a9ecf;
+    --background-vermelho: #f7f5f5;
+    --background-azul: #2e328f;
+    --text-res: white;
+    --text-emp: black;
+}
+
+.res-color:root {
+    --principal: #2e328f;
+    --principal-claro: #8a9ecf;
+    --background-azul: #2e328f;
+    --background-vermelho: #f7f5f5;
 }
 
 /* CORES QUANDO TIVER VISUALIZANDO OS PLANOS EMPRESARIAIS */
 .emp-color:root {
     --principal: #eb1c24;
     --principal-claro: #e09ea0;
+    --background-vermelho: #eb1c24;
+    --text-emp: white;
+    --background-azul: #f7f5f5;
+    --text-res: black;
 }
 
 body {
@@ -192,9 +207,13 @@ li a:hover {
     font-weight: 600;
     border-radius: 20px;
     border: #2e328f solid;
+    background-color: var(--background-azul);
+    color: var(--text-res);
+    cursor: not-allowed;
+}
+#planos .botoes .btn-plan-res:hover {
     background-color: #2e328f;
     color: white;
-    cursor: not-allowed;
 }
 
 
@@ -206,7 +225,8 @@ li a:hover {
     font-weight: 600;
     border-radius: 20px;
     border: #eb1c24 solid;
-
+    background-color: var(--background-vermelho);
+    color: var(--text-emp);
 }
 
 /* MUDA A COR DO BACKGROUND E DO TEXTO QUANDO FAZ HOVER */
