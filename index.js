@@ -30,7 +30,7 @@ const valor_plano = document.getElementsByClassName('valor-plano');
 const $html = document.querySelector('html')
 function mudaPlanoEmp() {
     $html.classList.remove('res-color');
-    $html.classList.toggle('emp-color');
+    $html.classList.add('emp-color');
     btn_emp.style.cursor = 'not-allowed';
     btn_res.style.cursor = 'pointer';
     
@@ -45,7 +45,7 @@ function mudaPlanoEmp() {
 
 function mudaPlanoRes() {
     $html.classList.remove('emp-color');
-    $html.classList.toggle('res-color');
+    $html.classList.add('res-color');
     btn_res.style.cursor = 'not-allowed';
     btn_emp.style.cursor = 'pointer';
 
