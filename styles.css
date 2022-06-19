@@ -3,32 +3,34 @@
     font-family: 'Exo 2';
     margin: 0;
     padding: 0;
+    z-index: 2;
+
 }
 
 /* CORES QUANDO ABRIR O SITE */
 :root {
-    --principal: #2e328f;
-    --principal-claro: #8a9ecf;
+    --principal: #05247B;
+    --principal-claro: #0733AD;
     --background-vermelho: #f7f5f5;
-    --background-azul: #2e328f;
+    --background-azul: #05247B;
     --text-res: white;
     --text-emp: black;
 }
 
 /* CORES QUANDO TIVER VISUALIZANDO OS PLANOS RESIDENCIAIS */
 .res-color:root {
-    --principal: #2e328f;
-    --principal-claro: #8a9ecf;
-    --background-azul: #2e328f;
+    --principal: #05247B;
+    --principal-claro: #0733AD;
+    --background-azul: #05247B;
     --background-vermelho: #f7f5f5;
     --text-res: white;
 }
 
 /* CORES QUANDO TIVER VISUALIZANDO OS PLANOS EMPRESARIAIS */
 .emp-color:root {
-    --principal: #eb1c24;
-    --principal-claro: #e09ea0;
-    --background-vermelho: #eb1c24;
+    --principal: #B2002B;
+    --principal-claro: #FF1049;
+    --background-vermelho: #B2002B;
     --text-emp: white;
     --background-azul: #f7f5f5;
     --text-res: black;
@@ -36,6 +38,7 @@
 
 body {
     background-color: rgb(241, 241, 241) !important;
+
 }
 
 /*DEIXA A APP BAR EM FORMATO DE LINHA */
@@ -118,7 +121,7 @@ li a:hover {
 /* AO DAR SCROLL A APPBAR FICA POR CIMA DE TUDO*/
 .stick {
     position: fixed;
-    z-index: 2;
+    z-index: 3;
 }
 
 .appbar {
@@ -147,6 +150,7 @@ li a:hover {
     width: 100vw;
     height: 85vh;
     margin-top: 63px;
+
     object-fit: cover;
     filter: opacity(80%) brightness(70%);
 }
@@ -186,9 +190,23 @@ li a:hover {
     background-color: rgba(182, 182, 182, 0.178);
 }
 
+#planos {
+    height: 100vh;
+    margin-top: 30px;
+    /* background-size: 80vh;
+    background-repeat: no-repeat; */
+}
 
-#planos-anchor {
-    padding-bottom: 90px;
+#planos .background-pattern {
+    position: absolute;
+    z-index: 1;
+    /* background-image: url("");
+    background-repeat: no-repeat; */
+    
+    object-fit: cover;
+    opacity: 30%;
+    height: 73.4vh;
+    width: 100%;
 }
 
 /* COLOCA OS BOTOES PARA MUDAR DE PLANO (EMPRESARIAL - RESIDENCIAL) NO CENTRO DO BAGULHO */
@@ -203,18 +221,21 @@ li a:hover {
 
 /*  COLOCA ESTILO NO BOTAO DE PLANOS RESIDENCIAIS */
 #planos .botoes .btn-plan-res {
+    z-index: 2;
+
     margin-right: 12px;
     padding: 12px 8px 12px 8px;
     cursor: pointer;
     font-weight: 600;
     border-radius: 20px;
-    border: #2e328f solid;
+    border: #05247B solid;
     background-color: var(--background-azul);
     color: var(--text-res);
     cursor: not-allowed;
 }
+
 #planos .botoes .btn-plan-res:hover {
-    background-color: #2e328f;
+    background-color: #05247B;
     color: white;
 }
 
@@ -226,14 +247,14 @@ li a:hover {
     cursor: pointer;
     font-weight: 600;
     border-radius: 20px;
-    border: #eb1c24 solid;
+    border: #B2002B solid;
     background-color: var(--background-vermelho);
     color: var(--text-emp);
 }
 
 /* MUDA A COR DO BACKGROUND E DO TEXTO QUANDO FAZ HOVER */
 #planos .botoes .btn-plan-emp:hover {
-    background-color: #eb1c24;
+    background-color: #B2002B;
     color: white;
 }
 
@@ -346,6 +367,13 @@ li a:hover {
     box-shadow: 0px 0px 12px 2px rgba(138, 138, 138, 0.94);
 }
 
+#sobre-nos .row-sobre-nos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
 #sobre-nos .col {
     display: flex;
     flex-direction: column;
@@ -367,20 +395,27 @@ li a:hover {
     text-justify: inter-word;
 }
 
-#map {
-    /* margin-left: 120px;
-        margin-top: 40px; */
-    /* align-self: center; */
-    /* height: 400px; */
+
+
+#mapa-chileno {
     width: 1000px;
+    height: 650px;
+    /* margin-top: -150px; */
+    overflow: hidden;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.94);
+    margin-left: 20px;
     box-shadow: 0px 0px 12px 2px rgba(138, 138, 138, 0.94);
-    opacity: 50%;
+    opacity: 60%;
 }
 
-#map:hover {
+#mapa-chileno:hover {
     opacity: 100%;
+}
+
+#mapa {
+    height: 950px;
+    width: 1000px;
+    margin-top: -150px;
 }
 
 

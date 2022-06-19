@@ -140,9 +140,11 @@
     </div>
 
 
-    <div id="planos-anchor"></div>
+    
+    <div id="planos">
+        <div id="planos-anchor"></div>
+        <img class="background-pattern" src="images/patterns/planos_pattern.png" alt="pattern-planos">
 
-    <div id="planos" style="height: 100vh">
         <div class="botoes">
             <button id="btn-res" onclick="mudaPlanoRes()" class="btn-plan-res btn-font">PLANOS RESIDÊNCIAIS</button>
             <button id="btn-emp" onclick="mudaPlanoEmp()" class="btn-plan-emp btn-font">PLANOS EMPRESARIAIS</button>
@@ -150,7 +152,7 @@
         <section class="minha-row boxes">
             <div class="plano4 minha-column zoom estilo">
                 <div class="top-container">
-                    <p class="tipo-plano">PLANO RESIDÊNCIAL</p>
+                    <p class="tipo-plano">PLANO</p>
                     <p class="nome-plano">MESH</p>
                 </div>
                 <div class="bottom-container">
@@ -168,7 +170,7 @@
             </div>
             <div class="plano3 minha-column zoom estilo">
                 <div class="top-container">
-                    <p class="tipo-plano">PLANO RESIDÊNCIAL</p>
+                    <p class="tipo-plano">PLANO</p>
                     <p class="nome-plano">MAX</p>
                 </div>
                 <div class="bottom-container">
@@ -187,7 +189,7 @@
 
             <div class="plano2 minha-column zoom estilo">
                 <div class="top-container">
-                    <p class="tipo-plano">PLANO RESIDÊNCIAL</p>
+                    <p class="tipo-plano">PLANO</p>
                     <p class="nome-plano">LIGHT</p>
                 </div>
                 <div class="bottom-container">
@@ -206,7 +208,7 @@
 
             <div class="plano1 minha-column zoom estilo">
                 <div class="top-container">
-                    <p class="tipo-plano">PLANO RESIDÊNCIAL</p>
+                    <p class="tipo-plano">PLANO</p>
                     <p class="nome-plano">BASIC</p>
                 </div>
                 <div class="bottom-container">
@@ -223,11 +225,12 @@
             </div>
         </section>
 
+
         <div class="descricao-plano">
             <div class="desc-icon-col">
                 <div class="desc-icon-row">
 
-                    <img src="images/icons/png/speedometer.png" alt="speedometer-icon" height="40px">
+                    <img src="images/icons/svg/tachometer-alt-fastest.svg" alt="speedometer-icon" height="40px">
                     <h1>Altissímas taxas de Download e Upload</h1>
                 </div>
                 <h2 style="margin-left: 30px;">
@@ -238,7 +241,7 @@
             </div>
             <div class="desc-icon-col" style="margin-left: 120px;">
                 <div class="desc-icon-row">
-                    <img src="images/icons/png/controle.png" alt="controle-icon" height="40px">
+                    <img src="images/icons/svg/gamepad.svg" alt="controle-icon" height="40px">
                     <h1>Seus jogos com o menor ping da cidade</h1>
                 </div>
                 <h2 style="margin-left: 30px;">
@@ -249,7 +252,7 @@
 
             <div class="desc-icon-col">
                 <div class="desc-icon-row">
-                    <img src="images/icons/png/horas.png" alt="horas-icon" height="40px">
+                    <img src="images/icons/svg/time-twenty-four.svg" alt="horas-icon" height="40px">
                     <h1>Atendimento 24 horas por dia</h1>
                 </div>
                 <h2 style="margin-left: 150px;">
@@ -312,9 +315,13 @@
 
     <div id="sobre-anchor" style="padding: 100px;"></div>
     <div id="sobre-nos" style="height: 100vh">
-        <div class="row1">
+        <div class="row-sobre-nos">
             <div class="col1">
-                <div id="map"></div>
+                <div id="mapa-chileno">
+                    <iframe id="mapa"  src="https://www.google.com/maps/d/u/0/embed?mid=1wSmj5oPjfnI37UL9Al8I5L8q4CIHT4k&ehbc=2E312F" ></iframe>
+
+                </div>
+                <!-- <div id="map"></div> -->
             </div>
             <div class="col2">
                 <h1>SOBRE NÓS</h1>
