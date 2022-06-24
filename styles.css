@@ -99,6 +99,9 @@ li {
     margin-top: 10px;
     list-style: none;
     display: inline;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 /* RETIRA A DECORACAO DO TEXTO DA APPBAR, E ARRUMAR OS BOTOES */
@@ -116,7 +119,7 @@ li a {
 li .a-sem-hover:hover {
     background: #fff;
     color: #fff;
-    font-size: 17px;
+    font-size: 19px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -166,7 +169,6 @@ li .a-sem-hover:hover {
 li a:hover {
     background: var(--principal);
     color: #fff;
-    font-size: 17px;
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -272,14 +274,9 @@ li a:hover {
     justify-content: center;
 }
 
-#planos .btn-font {
-    font-size: 10px;
-}
-
 /*  COLOCA ESTILO NO BOTAO DE PLANOS RESIDENCIAIS */
 #planos .botoes .btn-plan-res {
     z-index: 2;
-
     margin-right: 12px;
     padding: 12px 8px 12px 8px;
     cursor: pointer;
@@ -322,18 +319,6 @@ li a:hover {
     padding-top: 30px;
     margin-left: 200px;
     margin-right: 200px;
-}
-
-/* ALTERA O TAMANHO E DEIXA EM NEGRITO A FONTE DO NOME */
-.nome-plano {
-    font-size: 36px;
-    font-weight: 900;
-}
-
-/* ALTERA O TAMANHO DA FONTE TIPO */
-.tipo-plano {
-    font-size: 12px;
-    font-weight: 800;
 }
 
 /* DA UM ZOOM AO FAZER HOVER NO PLANO */
@@ -439,15 +424,12 @@ li a:hover {
 
 /* COLOCA O TITULO SOBRE NOS NO LUGAR CERTO */
 #sobre-nos h1 {
-    font-size: 24px;
     color: var(--principal);
-    font-weight: 800;
     right: 260px;
 }
 
 #sobre-nos p {
     width: 280px;
-    font-size: 14px;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -489,13 +471,10 @@ li a:hover {
 }
 
 .descricao-plano h1 {
-    font-size: 20px;
-    font-weight: 800;
     color: var(--principal);
 }
 
 .descricao-plano h2 {
-    font-size: 14px;
     margin-top: 5px;
 }
 
@@ -524,12 +503,10 @@ li a:hover {
 #contato .contato-content h1 {
     padding-top: 200px;
     padding-left: 300px;
-    font-weight: 800;
     color: var(--principal);
 }
 
 #contato .contato-content h2 {
-    font-size: 20px;
     margin-top: 25px;
     margin-left: 285px;
     padding-right: 0px !important;
@@ -606,7 +583,6 @@ li a:hover {
 
 #contato .contato-content .blocks h4 {
     color: var(--principal);
-    font-weight: 800;
 }
 
 #contato .contato-content .blocks h5 {
@@ -637,12 +613,6 @@ footer a {
 
 footer h4 {
     margin-bottom: 20px;
-
-    font-family: 'Exo 2';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
 }
 
 footer .cols {

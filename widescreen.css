@@ -13,7 +13,7 @@
 }
 
 #planos .btn-font {
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 /* ORGANIZA OS PLANOS UM DO LADO DO OUTRO */
@@ -37,7 +37,7 @@
 
 /* COLOCA O TITULO SOBRE NOS NO LUGAR CERTO */
 #sobre-nos h1 {
-    font-size: 32px;
+    /* font-size: 32px; */
     right: 350px;
 }
 
