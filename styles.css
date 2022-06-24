@@ -434,6 +434,9 @@ li a:hover {
     text-justify: inter-word;
 }
 
+.descricao-plano h4 {
+    color: var(--principal);
+}
 
 
 #mapa-chileno {
