@@ -35,3 +35,5 @@ function mudaPlanoRes() {
     valor_plano[0].innerText = 'R$149,90'; valor_plano[1].innerText = 'R$119,90';
     valor_plano[2].innerText = 'R$99,90'; valor_plano[3].innerText = 'R$80,00';
 }
+
+// FAZER BAGULHO PRA ARRUMAR O MAPA SCOLL

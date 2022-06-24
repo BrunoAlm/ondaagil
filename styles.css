@@ -15,6 +15,7 @@
     --background-azul: #05247B;
     --text-res: white;
     --text-emp: black;
+    --azulim: #00E5E8;
 }
 
 /* CORES QUANDO TIVER VISUALIZANDO OS PLANOS RESIDENCIAIS */
@@ -28,7 +29,7 @@
 
 /* CORES QUANDO TIVER VISUALIZANDO OS PLANOS EMPRESARIAIS */
 .emp-color:root {
-    --principal: #B2002B;
+    --principal: #FF1049;
     --principal-claro: #FF1049;
     --background-vermelho: #B2002B;
     --text-emp: white;
@@ -155,6 +156,10 @@ li a:hover {
     filter: opacity(80%) brightness(70%);
 }
 
+#carouselExampleCaptions button {
+    z-index: 3;
+}
+
 /* DEIXA AS IMAGENS INICIAIS EM CARROCEL 3S, E O TEXTO CENTRALIZADO */
 .carousel-caption {
     filter: opacity(100%) brightness(100%);
@@ -192,7 +197,7 @@ li a:hover {
 
 #planos {
     height: 100vh;
-    margin-top: 30px;
+    margin-top: 60px;
     /* background-size: 80vh;
     background-repeat: no-repeat; */
 }
@@ -202,7 +207,7 @@ li a:hover {
     z-index: 1;
     /* background-image: url("");
     background-repeat: no-repeat; */
-    
+
     object-fit: cover;
     opacity: 30%;
     height: 73.4vh;
@@ -559,8 +564,54 @@ li a:hover {
 }
 
 footer {
-    background-color: rgb(8, 12, 32);
-    padding: 10px;
+    background-color: var(--principal);
     text-align: center;
     color: white;
+    height: 500px;
+    padding: 20px;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: var(--azulim);
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+footer .cols {
+    margin-top: 70px;
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+}
+
+footer .col1 {
+    width: 500px;
+}
+
+footer .razao-social {
+    margin-top: 30px;
+}
+
+footer .aplicativo {
+    margin-top:  20px;
+}
+
+footer .aplicativo img {
+    width: 200px;
 }
