@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     z-index: 2;
-
 }
 
 /* CORES QUANDO ABRIR O SITE */
@@ -39,7 +38,60 @@
 
 body {
     background-color: rgb(241, 241, 241) !important;
+}
 
+h1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+a .bold {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+p .bold {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 /*DEIXA A APP BAR EM FORMATO DE LINHA */
@@ -609,7 +661,7 @@ footer .razao-social {
 }
 
 footer .aplicativo {
-    margin-top:  20px;
+    margin-top: 20px;
 }
 
 footer .aplicativo img {
