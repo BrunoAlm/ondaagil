@@ -36,4 +36,20 @@ function mudaPlanoRes() {
     valor_plano[2].innerText = 'R$99,90'; valor_plano[3].innerText = 'R$80,00';
 }
 
-// FAZER BAGULHO PRA ARRUMAR O MAPA SCOLL
+
+// ANIMAÇÃO COM SCROLL
+window.addEventListener(
+    "scroll",
+    () => {
+      document.body.style.setProperty(
+        "--scroll",
+        window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+      );
+    },
+    false
+  );
+
+
+
+// FAZER BAGULHO PRA ARRUMAR O MAPA SCROLL
+
