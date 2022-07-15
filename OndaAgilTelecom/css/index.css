@@ -1,0 +1,89 @@
+    * {
+        font-family: 'Exo 2';
+        margin: 0;
+        padding: 0;
+    }
+
+    :root {
+        --elements: #0733ad;
+        --bg: #f1f1f1;
+        --letters-w: white;
+        --letters-b: black;
+        --appbar-bg: white;
+        --footer-bg: #0733ad;
+    }
+
+    html {
+        scroll-behavior: smooth !important;
+    }
+
+    body {
+        background-color: var(--bg);
+        width: calc(100vw - (100vw - 100%));
+    }
+
+    .gruda-app-bar {
+        position: fixed;
+        z-index: 3;
+        width: 100%;
+    }
+
+    /* MEXE NA APPBAR */
+    .app-bar {
+        height: 70px;
+        display: flex;
+        background-color: var(--appbar-bg);
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .app-bar img {
+        height: 50px;
+    }
+
+    /* MEXE NOS TESTOS DENTRO DA DIV DA APPBAR */
+    .app-bar-buttons {
+        list-style: none;
+        display: flex;
+    }
+
+    /* MARGEM ENTRE OS TEXTOS DA APPBAR */
+    .app-bar-buttons li a {
+        text-decoration: none;
+        border-radius: 10px;
+        padding-top: 40px !important;
+        padding: 10px;
+        color: var(--letters-b);
+    }
+
+    .app-bar-buttons li a:hover {
+        background-color: var(--elements);
+        color: var(--letters-w);
+    }
+
+    .app-bar-buttons .elevated-buttons {
+        margin-left: 10px;
+    }
+
+    .app-bar-buttons .elevated-buttons a {
+        background-color: var(--elements);
+        color: var(--letters-w);
+        font-weight: 800;
+    }
+
+    footer {
+        background-color: var(--footer-bg);
+        height: 400px;
+        padding: 20px;
+        color: var(--letters-w);
+    }
+
+    .zoom {
+        width: max-content;
+    }
+
+    .zoom:hover {
+        transform: scale(1.02);
+    }

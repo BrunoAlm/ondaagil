@@ -307,9 +307,9 @@ li a:hover {
 
 /* ORGANIZA OS PLANOS UM DO LADO DO OUTRO */
 #planos .boxes {
+    padding-top: 90px;
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
     margin-left: 200px;
     margin-right: 200px;
 }
