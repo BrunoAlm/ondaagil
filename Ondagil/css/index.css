@@ -46,7 +46,7 @@ header {
     justify-content: space-between;
 
     /* coloca padding horizontal de 120px */
-    padding: 0px 170px;
+    padding: 0px calc(4vw);
 }
 
 /* logo na esquerda da top bar */
@@ -55,34 +55,70 @@ header #logo {
     height: 3rem;
 }
 
-header #buttons {
+/* botões */
+header #menu {
+
     list-style: none;
-    font-weight: 500;
     font-size: 16px;
+    font-weight: 500;
     display: flex;
     align-items: center;
     gap: 1.2rem;
 }
 
-header #buttons a {
+header #menu a {
     color: var(--disabled-gray);
     text-decoration: none;
     padding: 10px 10px;
 }
 
-header #buttons .elevated {
+header #menu .elevated {
     background-color: var(--disabled-gray);
     border-radius: 36.36px;
 }
 
-header #buttons .elevated a {
+header #menu .elevated a {
     background-color: var(--disabled-gray);
     color: var(--default-blue);
     border-radius: 36.36px;
     padding: 10px 25px !important;
-
 }
 
-@media (max-width: 600px) {
-    
+header #btn-mobile {
+    display: none;
+}
+
+@media (max-width: 930px) {
+    header #menu {
+        display: none;
+
+    }
+
+    header #btn-mobile {
+        display: block;
+        background-color: var(--disabled-gray);
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    #nav.active #menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background-color: var(--default-blue);
+        padding: 20px 0px 20px 0px;
+    }
+
+    #nav.active #menu li {
+        margin: 0px 0px 10px 0px;
+    }
+
+    #nav.active #menu .elevated {
+        margin-top: 20px;
+    }
+
 }
