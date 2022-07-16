@@ -1,0 +1,75 @@
+/* cores do design system */
+:root {
+    --hover-blue: #05247B;
+    --hover-cyan: #00B0B3;
+    --hover-green: #00CC35;
+    --hover-pink: #B3002B;
+    --hover-orange: #D17800;
+    --hover-gray: #1E1E24;
+
+    --default-blue: #0733AD;
+    --default-cyan: #00E5E8;
+    --default-green: #35FF69;
+    --default-pink: #FF1049;
+    --default-orange: #FF9505;
+    --default-gray: #7D7D82;
+
+    --disabled-blue: #7B9CFA;
+    --disabled-cyan: #CCFEFF;
+    --disabled-green: #8FFFAC;
+    --disabled-pink: #FB7E9C;
+    --disabled-orange: #FFCB85;
+    --disabled-gray: #F9F9F9;
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* top bar */
+header {
+    /* cor e tamanho */
+    background-color: var(--default-blue);
+    width: 100vw;
+    height: 70px;
+
+    /* alinha os itens */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* coloca padding horizontal de 120px */
+    padding: 0px 120px;
+}
+
+/* logo na esquerda da top bar */
+header #logo {
+    /* altura da logo */
+    height: 3rem;
+}
+
+header #buttons {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+header #buttons a {
+    color: var(--disabled-gray);
+    text-decoration: none;
+}
+
+header #buttons li {
+    padding: 10px 20px;
+}
+
+header #buttons .elevated {
+    background-color: var(--disabled-gray);
+    /* color: var(--hover-gray)!important; */
+
+}
