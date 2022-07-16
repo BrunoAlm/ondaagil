@@ -29,6 +29,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Exo 2', sans-serif;
+}
+
 /* top bar */
 header {
     /* cor e tamanho */
@@ -42,7 +46,7 @@ header {
     justify-content: space-between;
 
     /* coloca padding horizontal de 120px */
-    padding: 0px 120px;
+    padding: 0px 170px;
 }
 
 /* logo na esquerda da top bar */
@@ -53,7 +57,8 @@ header #logo {
 
 header #buttons {
     list-style: none;
-
+    font-weight: 500;
+    font-size: 16px;
     display: flex;
     align-items: center;
     gap: 1.2rem;
@@ -62,14 +67,22 @@ header #buttons {
 header #buttons a {
     color: var(--disabled-gray);
     text-decoration: none;
-}
-
-header #buttons li {
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 header #buttons .elevated {
     background-color: var(--disabled-gray);
-    /* color: var(--hover-gray)!important; */
+    border-radius: 36.36px;
+}
 
+header #buttons .elevated a {
+    background-color: var(--disabled-gray);
+    color: var(--default-blue);
+    border-radius: 36.36px;
+    padding: 10px 25px !important;
+
+}
+
+@media (max-width: 600px) {
+    
 }
