@@ -57,26 +57,33 @@ header #logo {
 
 /* botões */
 header #menu {
-
+    /* estilo da lista */
     list-style: none;
-    font-size: 16px;
-    font-weight: 500;
+
+    /* alinhamento dos botões */
     display: flex;
     align-items: center;
     gap: 1.2rem;
 }
 
+/* links */
 header #menu a {
+    /* estilo do texto */
     color: var(--disabled-gray);
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+
+    /* espaçamento do texto */
     padding: 10px 10px;
 }
 
+/* botão diferente */
 header #menu .elevated {
     background-color: var(--disabled-gray);
     border-radius: 36.36px;
 }
-
+/* alinhamento do botão diferente */
 header #menu .elevated a {
     background-color: var(--disabled-gray);
     color: var(--default-blue);
@@ -84,41 +91,63 @@ header #menu .elevated a {
     padding: 10px 25px !important;
 }
 
+/* esconde o botão de menu */
 header #btn-mobile {
     display: none;
 }
 
+/* tamanho de tela mobile */
 @media (max-width: 930px) {
+
+    /* esconde o menu */
     header #menu {
         display: none;
-
     }
 
+    /* 
+        esse botão estava escondido, mas agora no mobile
+        ele fica visível, e ao clicar, expande, com os itens do menu
+    */
     header #btn-mobile {
+        /* coloca na tela e retira borda */
         display: block;
-        background-color: var(--disabled-gray);
         border: none;
+
+        /* estilos */
+        background-color: var(--disabled-gray);
         padding: 10px;
         cursor: pointer;
     }
 
+    /* 
+        quando clica no botão ele coloca a classe active 
+        no elemento id="nav"
+
+        então, quando nav.active eu modifico o menu
+    */
     #nav.active #menu {
+        /* ajusta a posição dos botões dentro do menu */
         display: flex;
         flex-direction: column;
+
+        /* posicionamento do menu */
         position: absolute;
         width: 100%;
         top: 70px;
         right: 0px;
+
+        /* estilos */
         background-color: var(--default-blue);
         padding: 20px 0px 20px 0px;
     }
 
     #nav.active #menu li {
+        /* distância dos links */
         margin: 0px 0px 10px 0px;
     }
-
+/*     
     #nav.active #menu .elevated {
         margin-top: 20px;
-    }
+    } */
 
 }
