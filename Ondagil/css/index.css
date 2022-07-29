@@ -29,125 +29,32 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     font-family: 'Exo 2', sans-serif;
+    height: calc(100% - 5rem);
+    width: 100%;
 }
 
-/* top bar */
-header {
-    /* cor e tamanho */
-    background-color: var(--default-blue);
-    width: 100vw;
-    height: 70px;
-
-    /* alinha os itens */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    /* coloca padding horizontal de 120px */
-    padding: 0px calc(4vw);
+section {
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding: 0px calc(5rem);
 }
 
-/* logo na esquerda da top bar */
-header #logo {
-    /* altura da logo */
-    height: 3rem;
-}
-
-/* botões */
-header #menu {
-    /* estilo da lista */
-    list-style: none;
-
-    /* alinhamento dos botões */
-    display: flex;
-    align-items: center;
-    gap: 1.2rem;
-}
-
-/* links */
-header #menu a {
-    /* estilo do texto */
-    color: var(--disabled-gray);
-    text-decoration: none;
-    font-size: 16px;
+button {
+    /* retira borda do botão */
+    border: none;
+    cursor: pointer;
+    /* estilos retirados do figma */
+    height: 37.323333740234375px;
+    width: 170.178955078125px;
+    left: 168.54541015625px;
+    top: 499.3082275390625px;
+    border-radius: 100px;
+    background-color: var(--default-green);
+    font-size: 22px;
+    color: var(--hover-gray);
     font-weight: 500;
-
-    /* espaçamento do texto */
-    padding: 10px 10px;
-}
-
-/* botão diferente */
-header #menu .elevated {
-    background-color: var(--disabled-gray);
-    border-radius: 36.36px;
-}
-/* alinhamento do botão diferente */
-header #menu .elevated a {
-    background-color: var(--disabled-gray);
-    color: var(--default-blue);
-    border-radius: 36.36px;
-    padding: 10px 25px !important;
-}
-
-/* esconde o botão de menu */
-header #btn-mobile {
-    display: none;
-}
-
-/* tamanho de tela mobile */
-@media (max-width: 930px) {
-
-    /* esconde o menu */
-    header #menu {
-        display: none;
-    }
-
-    /* 
-        esse botão estava escondido, mas agora no mobile
-        ele fica visível, e ao clicar, expande, com os itens do menu
-    */
-    header #btn-mobile {
-        /* coloca na tela e retira borda */
-        display: block;
-        border: none;
-
-        /* estilos */
-        background-color: var(--disabled-gray);
-        padding: 10px;
-        cursor: pointer;
-    }
-
-    /* 
-        quando clica no botão ele coloca a classe active 
-        no elemento id="nav"
-
-        então, quando nav.active eu modifico o menu
-    */
-    #nav.active #menu {
-        /* ajusta a posição dos botões dentro do menu */
-        display: flex;
-        flex-direction: column;
-
-        /* posicionamento do menu */
-        position: absolute;
-        width: 100%;
-        top: 70px;
-        right: 0px;
-
-        /* estilos */
-        background-color: var(--default-blue);
-        padding: 20px 0px 20px 0px;
-    }
-
-    #nav.active #menu li {
-        /* distância dos links */
-        margin: 0px 0px 10px 0px;
-    }
-/*     
-    #nav.active #menu .elevated {
-        margin-top: 20px;
-    } */
-
 }
