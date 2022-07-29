@@ -1,0 +1,18 @@
+header {
+    height: 60px;
+}
+
+/* logo na esquerda da top bar */
+header #logo {
+    /* altura da logo */
+    height: 2rem;
+}
+
+/* links */
+header #menu a {
+    /* estilo do texto */
+    font-size: 12px;
+
+    /* espaçamento do texto */
+    padding: 5px 5px;
+}

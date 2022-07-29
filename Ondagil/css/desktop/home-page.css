@@ -1,9 +1,3 @@
-@font-face {
-    font-family: AntennaComp;
-    src: url(../../assets/fonts/antennaComp/AntennaComp-Bold.otf);
-    font-weight: bold;
-}
-
 #home-page {
     /* alinhamento */
     display: flex;
@@ -14,14 +8,14 @@
 }
 
 #home-page .content {
-    border: 1px var(--default-gray) dashed;
+    /* border: 1px var(--default-gray) dashed; */
     max-width: 55%;
 }
 
 #home-page .content h1 {
     color: var(--default-blue);
     font-family: AntennaComp;
-    font-size: 155px;
+    font-size: 160px;
     line-height: 1.1;
 }
 
@@ -40,6 +34,6 @@
 }
 
 #home-page img {
-    border: 1px var(--default-gray) dashed;
+    /* border: 1px var(--default-gray) dashed; */
     width: 40%;
 }

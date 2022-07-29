@@ -6,3 +6,7 @@ function toggleMenu(){
 }
 
 btnMobile.addEventListener('click', toggleMenu);
+
+
+
+console.log(window.innerWidth);

@@ -1,0 +1,31 @@
+@media (max-width: 1820px) {
+    
+    
+    #home-page .content h1 {
+        font-size: 115px;
+    }
+    
+    #home-page .content p {
+        font-size: 16px;
+    }
+    
+    .vermelho-main {
+        color: var(--default-pink);
+    }
+    
+    #home-page .content button {
+        margin-top: 50px;
+    }
+    
+    #home-page img {
+        /* border: 1px var(--default-gray) dashed; */
+        width: 40%;
+    }
+
+    button {
+        height: 33px;
+        width: 166px;
+        font-size: 18px;
+    }
+
+}
