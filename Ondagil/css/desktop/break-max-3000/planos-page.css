@@ -1,0 +1,14 @@
+@media (max-width: 3000px) {
+    .pattern {
+        position: absolute;
+        left: 0;
+        background-image: url('../../../assets/images/pattern/blue-pattern.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+    #planos-page {
+        width: 120%;
+    }
+}

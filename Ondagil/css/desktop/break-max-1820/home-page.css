@@ -1,20 +1,15 @@
 @media (max-width: 1820px) {
-    
-    
     #home-page .content h1 {
         font-size: 115px;
     }
     
     #home-page .content p {
-        font-size: 16px;
+        font-size: 19px;
+        max-width: 90%;
     }
     
     .vermelho-main {
         color: var(--default-pink);
-    }
-    
-    #home-page .content button {
-        margin-top: 50px;
     }
     
     #home-page img {
@@ -22,10 +17,12 @@
         width: 40%;
     }
 
-    button {
-        height: 33px;
-        width: 166px;
-        font-size: 18px;
+    #home-page .buttons p {
+        font-size: 16px;
     }
 
+    button {
+        padding: 2px 20px;
+        font-size: 16px;
+    }
 }

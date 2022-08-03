@@ -1,0 +1,25 @@
+@media (max-width: 1820px) {
+    header {
+        height: 60px;
+    }
+
+    /* logo na esquerda da top bar */
+    header #logo {
+        /* altura da logo */
+        height: 2rem;
+    }
+
+    /* links */
+    header #menu a {
+        /* estilo do texto */
+        font-size: 12px;
+
+        /* espaçamento do texto */
+        padding: 5px 5px;
+    }
+
+    /* alinhamento do botão diferente */
+    header #menu .elevated a {
+        padding: 5px 25px;
+    }
+}

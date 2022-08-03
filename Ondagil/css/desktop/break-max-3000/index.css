@@ -1,0 +1,15 @@
+@media (max-width: 3000px) {
+    body {
+        height: calc(100vh - 90px);
+    }
+
+    section {
+        height: calc(100vh - 90px);
+    }
+
+    button {
+        font-size: 24px;
+        padding: 8px 25px;
+
+    }
+}
