@@ -3,6 +3,8 @@
     #tela1 {
         height: 80%;
     }
+
+
     #home-page {
         /* alinhamento */
         display: flex;
@@ -22,7 +24,11 @@
         color: var(--default-blue);
         font-family: AntennaComp;
         font-size: 180px;
-        line-height: 91%;
+        line-height: 85%;
+
+
+        font-weight: 700;
+
     }
 
     #home-page .content p {
@@ -50,7 +56,8 @@
         margin: 0px 10px;
     }
 
-    #home-page img {
-        width: 40%;
+    #home-img-mobile {
+        display: none;
     }
+
 }

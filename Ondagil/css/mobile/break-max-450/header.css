@@ -1,25 +1,28 @@
 
 /* tamanho de tela mobile */
-@media (max-width: 930px) {
-
+@media only screen and (max-width: 650px) {
+    header {
+        width: 100%!important;
+        padding: 0 14px!important;
+    }
     /* esconde o menu */
     header #menu {
-        display: none;
+        z-index: 3!important;
+        display: none!important;
     }
-
     /* 
         esse botão estava escondido, mas agora no mobile
         ele fica visível, e ao clicar, expande, com os itens do menu
     */
     header #btn-mobile {
         /* coloca na tela e retira borda */
-        display: block;
+        display: block!important;
         border: none;
 
         /* estilos */
         background-color: var(--disabled-gray);
         padding: 10px;
-        cursor: pointer;
+        margin: 0 0 0 auto!important;
     }
 
     /* 
@@ -30,13 +33,13 @@
     */
     #nav.active #menu {
         /* ajusta a posição dos botões dentro do menu */
-        display: flex;
+        display: flex!important;
         flex-direction: column;
 
         /* posicionamento do menu */
         position: absolute;
         width: 100%;
-        top: 70px;
+        top: 60px;
         right: 0px;
 
         /* estilos */

@@ -7,6 +7,5 @@ function toggleMenu(){
 
 btnMobile.addEventListener('click', toggleMenu);
 
-
-
+// PRINT DA LARGURA DA TELA
 console.log(window.innerWidth);

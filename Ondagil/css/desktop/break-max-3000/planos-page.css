@@ -10,5 +10,6 @@
     }
     #planos-page {
         width: 120%;
+        overflow-x: hidden;
     }
 }
