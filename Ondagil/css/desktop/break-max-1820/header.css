@@ -1,27 +1,77 @@
-@media (max-width: 1820px) {
-    header {
-        height: 60px;
-        z-index: 1000 !important;
+@media only screen and (max-width: 1820px) {
 
+    /* top bar */
+    header {
+        /* cor e tamanho */
+        background-color: var(--default-blue);
+        width: 100vw;
+        height: 70px!important;
+        z-index: 1000 !important;
+        /* alinha os itens */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        /* coloca padding horizontal de 120px */
+        padding: 0px calc(8rem);
     }
 
     /* logo na esquerda da top bar */
     header #logo {
         /* altura da logo */
-        height: 2rem;
+        height: 2.2rem!important;
+    }
+
+    /* botões */
+    header #menu {
+        /* estilo da lista */
+        list-style: none;
+
+        /* alinhamento dos botões */
+        display: flex;
+        align-items: center;
+        gap: 1rem;
     }
 
     /* links */
     header #menu a {
         /* estilo do texto */
-        font-size: 12px;
+        color: var(--disabled-gray);
+        text-decoration: none;
+        font-size: 12px !important;
+        font-weight: 500;
 
         /* espaçamento do texto */
-        padding: 5px 5px;
+        padding: 5px 10px;
+    }
+
+    header #menu a:hover {
+        border-bottom: 1px var(--disabled-gray) solid;
+    }
+
+    /* hover do botão elevado */
+    header #menu .elevated a:hover {
+        -webkit-box-shadow: inset 0px 0px 0px 1px var(--disabled-gray);
+        -moz-box-shadow: inset 0px 0px 0px 1px var(--disabled-gray);
+        box-shadow: inset 0px 0px 0px 1px var(--disabled-gray);
+        background-color: var(--default-blue);
+        color: var(--disabled-gray);
     }
 
     /* alinhamento do botão diferente */
     header #menu .elevated a {
-        padding: 5px 25px;
+        background-color: var(--disabled-gray);
+        color: var(--default-blue);
+        border-radius: 36.36px;
+        padding: 8px 25px;
+    }
+
+    header #menu .elevated a {
+        border: none;
+    }
+
+    /* esconde o botão de menu */
+    header #btn-mobile {
+        display: none;
     }
 }

@@ -1,4 +1,4 @@
-@media (max-width: 3000px) {
+@media only screen and (max-width: 3000px) {
     .pattern {
         position: absolute;
         left: 0;

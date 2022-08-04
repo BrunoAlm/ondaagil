@@ -1,4 +1,4 @@
-@media (max-width: 3000px) {
+@media only screen and (max-width: 3000px) {
 
     #tela1 {
         height: 80%;
@@ -47,6 +47,7 @@
         display: flex;
         max-width: 85%;
         align-items: baseline;
+        font-size: 22px;
     }
 
     #home-page .buttons p {
@@ -58,6 +59,10 @@
 
     #home-img-mobile {
         display: none;
+    }
+
+    #home-img-desktop {
+        width: 40%;
     }
 
 }

@@ -1,4 +1,4 @@
-@media (max-width: 3000px) {
+@media only screen and (max-width: 3000px) {
 
     /* top bar */
     header {
@@ -6,7 +6,7 @@
         background-color: var(--default-blue);
         width: 100vw;
         height: 90px;
-
+        z-index: 1000;
         /* alinha os itens */
         display: flex;
         align-items: center;
