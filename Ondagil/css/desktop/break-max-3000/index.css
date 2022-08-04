@@ -56,7 +56,7 @@
         /* estilos retirados do figma */
         border-radius: 6px;
         background-color: var(--default-green);
-        box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.25);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
         line-height: 26px;
         font-size: 22px;
         color: var(--hover-gray);

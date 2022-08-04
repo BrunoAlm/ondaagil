@@ -9,7 +9,14 @@
         width: 100vw;
     }
     #planos-page {
-        width: 120%;
-        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    #planos-page h1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 60px;
+        font-weight: 400;
+        font-size: 30px;
     }
 }
