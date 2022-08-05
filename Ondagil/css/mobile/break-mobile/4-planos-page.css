@@ -22,11 +22,11 @@
 
     #planos .titulo h2 {
         color: var(--default-blue);
-        max-width: 80%;
+        max-width: 82%;
         text-align: center;
         text-transform: uppercase;
         font-size: 15px;
-        line-height: 36px;
+        /* line-height: 36px; */
     }
 
     #planos .w-400 {
@@ -92,10 +92,10 @@
 
     .card hr {
         margin: 12px 0;
+        background-color: var(--default-blue);
         border: 1px var(--default-blue) solid;
         width: 63px;
         align-self: center;
-
     }
 
     .card .desc-plano {
