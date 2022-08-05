@@ -14,14 +14,18 @@
     }
 
     #planos .titulo {
-        margin-top: 40px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     #planos .titulo h2 {
         color: var(--default-blue);
+        max-width: 80%;
         text-align: center;
         text-transform: uppercase;
-        font-size: 25px;
+        font-size: 15px;
         line-height: 36px;
     }
 
@@ -34,10 +38,23 @@
     }
 
 
-    .cards {
+    /* .cards {
         margin-top: 40px;
         display: flex;
+        flex-flow: row nowrap;
         justify-content: center;
+        overflow-x: hidden;
+    } */
+    .cards-desktop {
+        display: none;
+    }
+
+    .cards-mobile {
+        display: block;
+    }
+
+    .slick-slide {
+        padding: 20px;
     }
 
     .card:first-child {
@@ -51,7 +68,7 @@
         box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.15);
         border-radius: 18px;
         padding: 21px;
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     .card h2 {

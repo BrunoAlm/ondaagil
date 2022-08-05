@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1300px) {
 
-   
+
     .pattern {
         position: absolute;
         left: 0;
@@ -10,6 +10,7 @@
         height: 100vh;
         width: 100vw;
     }
+
 
     #planos {
         justify-content: center;
@@ -35,12 +36,20 @@
         font-weight: 900;
     }
 
+    .cards-mobile {
+        display: none;
+    }
 
-    .cards {
+    .cards-mobile .card {
+        display: none;
+    }
+
+    .cards-desktop {
         margin-top: 40px;
         display: flex;
         justify-content: center;
     }
+
     .card:first-child {
         margin-left: 0;
     }
@@ -113,7 +122,7 @@
         align-self: center;
     }
 
-    .card .valor h2{
+    .card .valor h2 {
         font-weight: 500;
         font-size: 30px;
         line-height: 36px;
