@@ -13,9 +13,9 @@
         justify-content: space-between;
         position: fixed;
         top: 0;
+        transition: top 0.2s ease-in-out;
         /* coloca padding horizontal de 120px */
         padding: 0px 128px;
-        transition: top 0.2s ease-in-out;
     }
 
     /* logo na esquerda da top bar */

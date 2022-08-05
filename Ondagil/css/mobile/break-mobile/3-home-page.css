@@ -1,8 +1,7 @@
 @media only screen and (max-width: 600px) {
     #tela1 {
-        
+        padding-top: 70px;
         height: 80%;
-        width: 100%;
     }
 
     #home-img-desktop {
