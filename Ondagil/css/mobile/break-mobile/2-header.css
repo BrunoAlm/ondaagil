@@ -1,11 +1,12 @@
-@media only screen and (max-width: 3000px) {
+/* tamanho de tela mobile */
+@media only screen and (max-width: 600px) {
 
     /* top bar */
     header {
         /* cor e tamanho */
         background-color: var(--default-blue);
         width: 100vw;
-        height: 90px;
+        height: 70px;
         z-index: 1000;
         /* alinha os itens */
         display: flex;
@@ -13,24 +14,55 @@
         justify-content: space-between;
 
         /* coloca padding horizontal de 120px */
-        padding: 0px calc(5rem);
+        padding: 0 14px;
     }
 
     /* logo na esquerda da top bar */
     header #logo {
         /* altura da logo */
-        height: 3rem;
+        height: 2.2rem;
     }
 
-    /* botões */
+    /* menu do desktop */
     header #menu {
-        /* estilo da lista */
-        list-style: none;
+        display: none;
+    }
 
-        /* alinhamento dos botões */
+    /* botão drawer */
+    header #btn-mobile {
+        display: block;
+        border: none;
+        background-color: var(--disabled-gray);
+        padding: 10px;
+        margin: 0 0 0 auto;
+    }
+
+    /* .active é quando clica no btn-mobile */
+    #nav.active #menu {
+        /* ajusta a posição dos botões dentro do menu */
         display: flex;
-        align-items: center;
-        gap: 1.2rem;
+        flex-direction: column;
+        z-index: 1000;
+
+        /* posicionamento do menu */
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        right: 0px;
+
+        /* estilos */
+        background-color: var(--default-blue);
+        padding: 20px 0px 20px 0px;
+    }
+
+    /* .active é quando clica no btn-mobile */
+    #nav.active #menu li {
+        margin: 0px 0px 10px 0px;
+    }
+
+    /* .active é quando clica no btn-mobile */
+    #nav.active #menu .elevated {
+        margin-top: 20px;
     }
 
     /* links */
@@ -38,7 +70,7 @@
         /* estilo do texto */
         color: var(--disabled-gray);
         text-decoration: none;
-        font-size: 18px;
+        font-size: 12px;
         font-weight: 500;
 
         /* espaçamento do texto */
@@ -68,11 +100,6 @@
 
     header #menu .elevated a {
         border: none;
-    }
-
-    /* esconde o botão de menu */
-    header #btn-mobile {
-        display: none;
     }
 
 }

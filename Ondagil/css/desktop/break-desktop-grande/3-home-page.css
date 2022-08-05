@@ -1,0 +1,63 @@
+@media only screen and (min-width: 1700px) {
+    #tela1{
+        padding-top: 80px;
+    }
+
+    #home-img-desktop {
+        width: 40%;
+    }
+
+    #home-img-mobile {
+        display: none;
+    }
+
+    #home-page {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 60px;
+
+    }
+
+    #home-page .content {
+        max-width: 100%;
+        
+    }
+
+    #home-page .content h1 {
+        font-family: AntennaComp;
+        color: var(--default-blue);
+        font-size: 160px;
+        line-height: 85%;
+
+    }
+
+    .vermelho-main {
+        font-family: AntennaComp;
+        color: var(--default-pink);
+    }
+
+    #home-page .content p {
+        margin-top: 10px;
+        font-size: 24px;
+        max-width: 85%;
+    }
+
+    #home-page .buttons {
+        display: flex;
+        margin-top: 24px;
+        flex-flow: row wrap;
+        align-items: baseline;
+    }
+
+    #home-page .buttons button {
+        margin-top: 10px;
+    }
+
+    #home-page .buttons p {
+        font-size: 22px;
+        line-height: 19px;
+        color: var(--default-gray);
+        margin: 0px 10px;
+    }
+
+}

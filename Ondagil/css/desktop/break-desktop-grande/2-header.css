@@ -1,25 +1,29 @@
-@media only screen and (max-width: 1820px) {
+@media only screen and (min-width: 1700px) {
+
+    .nav-up {
+        top: -80px;
+    }
 
     /* top bar */
     header {
         /* cor e tamanho */
         background-color: var(--default-blue);
         width: 100vw;
-        height: 70px!important;
-        z-index: 1000 !important;
+        height: 80px;
+        z-index: 1000;
         /* alinha os itens */
         display: flex;
         align-items: center;
         justify-content: space-between;
 
         /* coloca padding horizontal de 120px */
-        padding: 0px calc(8rem);
+        padding: 0px 128px;
     }
 
     /* logo na esquerda da top bar */
     header #logo {
         /* altura da logo */
-        height: 2.2rem!important;
+        height: 2.4rem;
     }
 
     /* botões */
@@ -38,7 +42,7 @@
         /* estilo do texto */
         color: var(--disabled-gray);
         text-decoration: none;
-        font-size: 12px !important;
+        font-size: 16px;
         font-weight: 500;
 
         /* espaçamento do texto */

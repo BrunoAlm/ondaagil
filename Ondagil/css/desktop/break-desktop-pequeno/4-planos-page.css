@@ -1,4 +1,5 @@
-@media only screen and (max-width: 3000px) {
+@media only screen and (min-width: 1300px) {
+
     .pattern {
         position: absolute;
         left: 0;
@@ -8,10 +9,12 @@
         height: 100vh;
         width: 100vw;
     }
+
     #planos-page {
         display: flex;
         justify-content: center;
     }
+
     #planos-page h1 {
         text-align: center;
         text-transform: uppercase;

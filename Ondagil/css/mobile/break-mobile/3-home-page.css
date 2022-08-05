@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px) {
+    #tela1 {
+        
+        height: 80%;
+        width: 100%;
+    }
+
+    #home-img-desktop {
+        display: none;
+    }
+
+    #home-img-mobile {
+        display: block;
+        position: absolute;
+        top: 65px;
+        left: 230px;
+        width: 65%;
+        z-index: -1;
+    }
+
+    #home-page {
+        align-items: flex-start;
+    }
+
+    #home-page .content {
+        max-width: 100%;
+        margin-top: 34px;
+    }
+
+    #home-page .content h1 {
+        font-family: AntennaComp;
+        color: var(--default-blue);
+        font-size: 90px;
+        line-height: 85%;
+        max-width: 280px;
+    }
+
+    .vermelho-main {
+        font-family: AntennaComp;
+        color: var(--default-pink);
+    }
+
+    #home-page .content p {
+        margin-top: 10px;
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    #home-page .buttons {
+        display: flex;
+        margin-top: 24px;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    #home-page .buttons button {
+        margin-top: 10px;
+    }
+
+    #home-page .buttons p {
+        font-size: 22px;
+        line-height: 19px;
+        color: var(--default-gray);
+        margin: 0px 10px;
+    }
+
+}

@@ -3,3 +3,43 @@
     src: url(../assets/fonts/antennaComp/AntennaComp-Bold.otf);
     font-weight: bold;
 }
+
+/* cores do design system */
+:root {
+    --hover-blue: #05247B;
+    --hover-cyan: #00B0B3;
+    --hover-green: #00CC35;
+    --hover-pink: #B3002B;
+    --hover-orange: #D17800;
+    --hover-gray: #1E1E24;
+
+    --default-blue: #0733AD;
+    --default-cyan: #00E5E8;
+    --default-green: #35FF69;
+    --default-pink: #FF1049;
+    --default-orange: #FF9505;
+    --default-gray: #7D7D82;
+
+    --disabled-blue: #7B9CFA;
+    --disabled-cyan: #CCFEFF;
+    --disabled-green: #8FFFAC;
+    --disabled-pink: #FB7E9C;
+    --disabled-orange: #FFCB85;
+    --disabled-gray: #F9F9F9;
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-up {
+    top: -70px;
+}
