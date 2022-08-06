@@ -11,6 +11,7 @@
     <link href="css/fonts.css" rel="stylesheet">
 
     <!-- estilo css mobile -->
+    <link href="css/mobile/drawer.css" rel="stylesheet">
     <!-- pequeno -->
     <link href="css/mobile/break-mobile/1-index.css" rel="stylesheet">
     <link href="css/mobile/break-mobile/2-header.css" rel="stylesheet">
@@ -43,24 +44,35 @@
 
     <!-- slick -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 </head>
 
 <body>
     <header class="nav-down">
         <a href="#"><img src="./assets/images/svg/logo.svg" alt="logo" id="logo"></a>
-        <img href="./assets/icons/png/drawer.png" alt="hamburguer-img" id="btn-mobile">
+        <img src="./assets/icons/png/drawer.png" alt="hamburguer-img" id="btn-mobile">
         <nav id="nav">
+            <div id="fecha-menu"></div>
             <ul id="menu">
-                <li><a href="#">Home</a></li>
+                <li><a href="#">Início</a></li>
                 <li><a href="#planos">Planos</a></li>
-                <li><a href="/">Contato</a></li>
-                <li><a href="/">Sobre Nos</a></li>
-                <li class="elevated"><a href="/">Central do assinante</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre Nos</a></li>
+                <li class="elevated"><a href="#">Central do assinante</a></li>
             </ul>
         </nav>
     </header>
+    <div id="fecha-drawer"></div>
+    <nav id="drawer">
+        <ul id="drawer-menu">
+            <img src="./assets/images/svg/drawer-logo.svg" alt="drawer-logo">
+            <li><a href="#">Início</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Sobre Nos</a></li>
+            <li><a href="#">Central do assinante</a></li>
+            <li><a href="#">Whatsapp</a></li>
+        </ul>
+    </nav>
 
     <section id="tela1">
         <div id="home-page">
@@ -278,10 +290,6 @@
     <script src="./js/index.js"></script>
     <script src="./js/header.js"></script>
     <script src="./js/slick.js"></script>
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
 </body>
 
 </html>

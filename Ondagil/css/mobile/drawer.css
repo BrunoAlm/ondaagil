@@ -1,0 +1,80 @@
+#fecha-drawer {
+    visibility: hidden;
+}
+
+#drawer {
+    visibility: hidden;
+    position: fixed;
+    z-index: 1002;
+    width: 0;
+    right: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: var(--mais-black);
+}
+
+
+#drawer-menu {
+    visibility: hidden;
+}
+
+#drawer-menu img {
+    height: 212px;
+}
+
+#drawer.active {
+    visibility: visible;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    transition: all 300ms ease-in;
+}
+
+#fecha-drawer.active {
+    display: block;
+    visibility: visible;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.50);
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1001;
+    transition: all 500ms ease-in;
+}
+
+/* .active é quando clica no btn-mobile */
+#drawer.active #drawer-menu {
+    list-style: none;
+    display: flex;
+    visibility: visible;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: var(--default-blue);
+}
+
+#drawer.active a {
+    color: var(--disabled-gray);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 7px 10px;
+}
+
+#drawer.active li {
+    margin: 27px 0px 10px 0px;
+    /* estilo do texto */
+    border: 1.45728px solid #F9F9F9;
+    border-radius: 8.74367px;
+    /* espaçamento do texto */
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}

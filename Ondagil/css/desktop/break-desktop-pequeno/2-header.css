@@ -76,4 +76,12 @@
     header #btn-mobile {
         display: none;
     }
+
+    #fecha-drawer {
+        display: none;
+    }
+
+    #drawer {
+        display: none;
+    }
 }
