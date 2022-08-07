@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1300px) {
     footer {
-        height: 412px;
+        height: 513px;
         background-color: var(--default-blue);
         display: flex;
         flex-direction: column;
@@ -12,6 +12,20 @@
         display: flex;
         align-items: flex-start;
     }
+    footer .logo {
+        width: 256px;
+        margin-left: -42px;
+    }
+
+    footer .info hr {
+        margin: 20px 0;
+        width: 169px;
+    }
+
+    footer .info .anatel {
+        width: 169px;
+        border-radius: 6px;
+    }
 
     footer .links {
         display: flex;
@@ -21,18 +35,21 @@
 
     footer .links h2 {
         font-weight: 700;
-        font-size: 30px;
+        font-size: 26px;
         color: var(--disabled-gray);
         line-height: 36px;
     }
 
     footer .links a {
         font-weight: 400;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 22px;
         color: var(--disabled-gray);
         text-decoration: none;
         /* margin-left: 5px; */
+    }
+    footer .links a:hover {
+        text-decoration: underline;
     }
 
     footer .link-site a:nth-child(2) {
@@ -67,7 +84,7 @@
 
     footer .row p {
         font-weight: 400;
-        font-size: 12px;
+        font-size: 14px;
         color: var(--disabled-gray);
         line-height: 22px;
     }
