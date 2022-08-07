@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+
+    #mais-controle {
+        height: 160%!important;
+    }
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #boxes {
+        margin-top: 135px;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .box {
+        display: flex;
+        padding: 10px;
+        width: 460px;
+        margin: 8px;
+        box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+        align-items: center;
+    }
+
+    .box img {
+        width: 62px;
+        margin: 10px;
+    }
+
+    .box p {
+        font-weight: 400;
+        font-size: 14px;
+        color: var(--hover-gray);
+    }
+
+    .box .azul-bold {
+        font-weight: 600;
+        font-size: 14px;
+        color: var(--default-blue);
+    }
+}

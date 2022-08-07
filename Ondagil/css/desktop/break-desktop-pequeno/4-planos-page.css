@@ -1,10 +1,7 @@
 @media only screen and (min-width: 1300px) {
-
-
     .pattern {
-        position: absolute;
         left: 0;
-        background-image: url('../../../assets/images/pattern/blue-pattern.png');
+        background-image: url('../../../assets/images/png/pattern/blue-pattern.png');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
@@ -17,7 +14,7 @@
     }
 
     #planos .titulo {
-        margin-top: 40px;
+        padding-top: 40px;
     }
 
     #planos .titulo h2 {

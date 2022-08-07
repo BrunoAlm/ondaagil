@@ -43,3 +43,14 @@ html {
 .nav-up {
     top: -70px;
 }
+
+.vermelho-main {
+    font-family: AntennaComp;
+    color: var(--default-pink);
+}
+
+.ciano-main {
+    font-family: AntennaComp;
+    color: var(--default-cyan);
+}
+

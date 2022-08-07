@@ -1,0 +1,46 @@
+@media only screen and (min-width: 1700px) {
+    #app-image-mobile {
+        display: none;
+    }
+    .app {
+        margin-top: 133px;
+        display: flex;
+    }
+
+    .app img {
+        /* width: 423.84px; */
+        /* aumentei 40% */
+        width: 650px;
+    }
+
+    .app .texto {
+        margin-left: 24px;
+    }
+
+    .app .texto h1 {
+        font-family: AntennaComp;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 144px;
+        line-height: 91%;
+        text-transform: uppercase;
+        color: var(--default-blue);
+    }
+
+    .app .texto p {
+        font-size: 22px;
+        line-height: 22px;
+        margin: 20px 0 46px 0;
+        color: var(--hover-gray);
+    }
+
+    .app .download-button img {
+        width: 190px;
+        box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .app .download-button img:last-child {
+        margin-left: 14px;
+
+    }
+}

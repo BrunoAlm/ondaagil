@@ -1,0 +1,93 @@
+@media only screen and (max-width: 600px) {
+
+
+    .fundo-soldado {
+        left: 0;
+        /* background: url('../../../assets/images/png/pattern/fundo-soldado.png'); */
+        /* background: linear-gradient(90deg, rgba(0, 0, 0, 0.87) 20%, rgba(0, 0, 0, 0) 100%), url('../../../assets/images/png/pattern/fundo-soldado.png') no-repeat; */
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
+        height: 76vh;
+        width: 100vw;
+        margin-top: 200px;
+    }
+
+    #image-soldado-desktop {
+        display: none;
+    }
+
+    #image-soldado-mobile {
+        height: 80%;
+        z-index: -1;
+        position: absolute;
+        display: block;
+    }
+
+    #plano-mesh h1 {
+        padding-top: 57px;
+        font-family: 'AntennaComp';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 91%;
+        /* or 105px */
+
+        text-transform: uppercase;
+        color: #F9F9F9;
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    #plano-mesh .desc-plano {
+        margin: 15px 0;
+        display: flex;
+        flex-flow: column;
+    }
+
+    #plano-mesh .row-desc {
+        display: flex;
+        /* margin: 0 10px; */
+        align-items: center;
+    }
+
+    #plano-mesh .row-desc img {
+        width: 17px;
+        margin: 5px;
+    }
+
+    #plano-mesh .row-desc p {
+        color: var(--disabled-gray);
+    }
+
+    #plano-mesh .mais-desc h2 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        color: #F9F9F9;
+        max-width: 85%;
+        margin-bottom: 15px;
+    }
+
+    #plano-mesh .mais-desc p {
+        font-size: 16px;
+        line-height: 22px;
+        color: #F9F9F9;
+        max-width: 85%;
+        font-weight: 400;
+        margin-bottom: 35px;
+    }
+
+    #plano-mesh .row {
+        display: flex;
+        align-items: center;
+    }
+
+    #plano-mesh .row p {
+        margin-left: 20px;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #F9F9F9;
+    }
+
+}
