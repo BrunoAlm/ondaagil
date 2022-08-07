@@ -1,11 +1,20 @@
 @media only screen and (min-width: 1300px) {
+    #image-soldado-mobile {
+        display: none;
+    }
+
+    #image-soldado-desktop {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    }
 
     .fundo-soldado {
         left: 0;
-        background: url('../../../assets/images/png/pattern/fundo-soldado.png');
+        /* background: url('../../../assets/images/png/pattern/fundo-soldado.png'); */
         /* background: linear-gradient(90deg, rgba(0, 0, 0, 0.87) 20%, rgba(0, 0, 0, 0) 100%), url('../../../assets/images/png/pattern/fundo-soldado.png') no-repeat; */
-        background-size: cover;
-        background-repeat: no-repeat;
+        /* background-size: cover;
+        background-repeat: no-repeat; */
         height: 76vh;
         width: 100vw;
     }
