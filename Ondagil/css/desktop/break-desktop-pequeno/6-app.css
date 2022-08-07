@@ -3,6 +3,7 @@
     #app-image-mobile {
         display: none;
     }
+
     .app {
         margin-top: 133px;
         display: flex;
@@ -15,6 +16,7 @@
     .app .texto {
         margin-left: 24px;
     }
+
     .app .texto h1 {
         font-family: AntennaComp;
         font-style: normal;
@@ -23,6 +25,10 @@
         line-height: 91%;
         text-transform: uppercase;
         color: var(--default-blue);
+    }
+
+    .quebra-linha {
+        display: none;
     }
 
     .app .texto p {
@@ -35,6 +41,7 @@
     .app .download-button img {
         width: 117.75px;
     }
+
     .app .download-button img:last-child {
         margin-left: 14px;
     }

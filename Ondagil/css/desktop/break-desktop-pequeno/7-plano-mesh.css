@@ -8,7 +8,8 @@
         z-index: -1;
         width: 100%;
     }
-
+    
+    
     .fundo-soldado {
         left: 0;
         /* background: url('../../../assets/images/png/pattern/fundo-soldado.png'); */
@@ -18,9 +19,13 @@
         height: 76vh;
         width: 100vw;
     }
+    #plano-mesh {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
     #plano-mesh h1 {
-        padding-top: 57px;
         font-family: 'AntennaComp';
         font-style: normal;
         font-weight: 700;

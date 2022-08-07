@@ -35,6 +35,9 @@
     <link href="css/desktop/break-desktop-pequeno/5-boxes.css" rel="stylesheet">
     <link href="css/desktop/break-desktop-pequeno/6-app.css" rel="stylesheet">
     <link href="css/desktop/break-desktop-pequeno/7-plano-mesh.css" rel="stylesheet">
+    <link href="css/desktop/break-desktop-pequeno/8-sobre-nos.css" rel="stylesheet">
+    <link href="css/desktop/break-desktop-pequeno/9-nossas-lojas.css" rel="stylesheet">
+    <link href="css/desktop/break-desktop-pequeno/10-footer.css" rel="stylesheet">
     <!-- grande -->
     <link href="css/desktop/break-desktop-grande/1-index.css" rel="stylesheet">
     <link href="css/desktop/break-desktop-grande/2-header.css" rel="stylesheet">
@@ -42,6 +45,10 @@
     <link href="css/desktop/break-desktop-grande/4-planos-page.css" rel="stylesheet">
     <link href="css/desktop/break-desktop-grande/5-boxes.css" rel="stylesheet">
     <link href="css/desktop/break-desktop-grande/6-app.css" rel="stylesheet">
+    <link href="css/desktop/break-desktop-grande/7-plano-mesh.css" rel="stylesheet">
+    <link href="css/desktop/break-desktop-grande/8-sobre-nos.css" rel="stylesheet">
+    <link href="css/desktop/break-desktop-grande/9-nossas-lojas.css" rel="stylesheet">
+    <link href="css/desktop/break-desktop-grande/10-footer.css" rel="stylesheet">
 
     <!-- fonts google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,7 +63,7 @@
 
 <body>
     <header class="nav-down">
-        <a href="#"><img src="./assets/images/svg/logo.svg" alt="logo" id="logo"></a>
+        <a href="#"><img src="./assets/images/svg/logo.svg" alt="logo" class="logo"></a>
         <img src="./assets/images/png/drawer.png" alt="hamburguer-img" id="btn-mobile">
         <nav id="nav">
             <div id="fecha-menu"></div>
@@ -64,7 +71,7 @@
                 <li><a href="#">Início</a></li>
                 <li><a href="#planos">Planos</a></li>
                 <li><a href="#">Contato</a></li>
-                <li><a href="#">Sobre Nos</a></li>
+                <li><a href="#sobre-nos">Sobre Nos</a></li>
                 <li class="elevated"><a href="#">Central do assinante</a></li>
             </ul>
         </nav>
@@ -76,7 +83,7 @@
             <li><a href="#">Início</a></li>
             <li><a href="#planos">Planos</a></li>
             <li><a href="#">Contato</a></li>
-            <li><a href="#">Sobre Nos</a></li>
+            <li><a href="#sobre-nos">Sobre Nos</a></li>
             <li><a href="#">Central do assinante</a></li>
         </ul>
     </nav>
@@ -328,7 +335,8 @@
                 <img id="app-image-mobile" src="./assets/images/png/app/app-mobile.png" alt="app-image">
                 <img id="app-image-desktop" src="./assets/images/png/app/app.png" alt="app-image">
                 <div class="texto">
-                    <h1>Tenha mais <span class="vermelho-main">controle</span> com <br> nosso app</h1>
+                    <h1>Tenha mais <span class="vermelho-main">controle</span> com <br class="quebra-linha"> nosso app
+                    </h1>
                     <p>A melhor maneira de controlar a internet é com o aplicativo da Onda Ágil Telecom que fornece uma
                         comodidade maior pra você. Afinal todo mundo tem tudo online, banco online, conta online,
                         comunicação online, comida online, puta online, tudo online.</p>
@@ -342,8 +350,10 @@
     </section>
 
     <div class="fundo-soldado">
-        <img id="image-soldado-desktop" src="./assets/images/png/pattern/fundo-soldado-desktop.png" alt="background-image">
-        <img id="image-soldado-mobile" src="./assets/images/png/pattern/fundo-soldado-mobile.png" alt="background-image">
+        <img id="image-soldado-desktop" src="./assets/images/png/pattern/fundo-soldado-desktop.png"
+            alt="background-image">
+        <img id="image-soldado-mobile" src="./assets/images/png/pattern/fundo-soldado-mobile.png"
+            alt="background-image">
         <section id="plano-mesh">
             <h1>PLANO MESH <span class="ciano-main">500MB</span> </h1>
             <div class="desc-plano">
@@ -379,8 +389,77 @@
                 <p>*Inclui Roteador MESH</p>
             </div>
         </section>
-        <section></section>
     </div>
+    <section>
+        <div id="sobre-nos">
+            <img src="./assets/images/png/sobre-nos.png" alt="image">
+            <div class="texto">
+                <h2>Sobre Nós</h2>
+                <p>A OndaÁgil é uma empresa que fornece o serviço de internet. Afundada em 2007 pelo empresário
+                    Raimundão, do grupo Casa Aparecida, que é resguardada pela qualidade de seus produtos e satisfação
+                    de seus clientes. Ambas vem contribuindo para o desenvolvimento de um processo relativamente
+                    econômico para os cidadãos da cidade de Ji-Paraná e região.
+                </p>
+                <p>A Onda Ágil vem se destacando em Ji-paraná como um dos maiores provedores de Internet da região com a
+                    qualidade e agilidade da internet, incansável para aumentar e implementar novos recursos e
+                    equipamentos de alta tecnologia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="nossas-lojas">
+            <h2>Nossas Lojas</h2>
+            <div id="mapa-chileno">
+                <iframe id="mapa"
+                    src="https://www.google.com/maps/d/u/0/embed?mid=1wSmj5oPjfnI37UL9Al8I5L8q4CIHT4k&ehbc=2E312F"></iframe>
+            </div>
+            <p>Av. Manoel Franco, 809 - Nova Brasília - Ji-Paraná/RO</p>
+            <p>Av. Marechal Rondon, 1770, - Centro - Ji-Paraná/RO</p>
+        </div>
+    </section>
+    <footer>
+        <div class="info">
+            <div class="links link-site">
+                <img class="logo" src="./assets/images/svg/logo.svg" alt="logo">
+                <a href="#">Início</a>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Central do Assinante</a>
+                <a href="#">Teste de Velocidade</a>
+                <a href="#">2ª Via Fácil</a>
+                <hr>
+                <img class="anatel" src="./assets/images/png/anatel.png" alt="anatel-img">
+            </div>
+            <div class="links link-planos">
+                <h2>Nossos Planos</h2>
+                <a href="#">Planos Residenciais</a>
+                <a href="#">Plano Empresariais</a>
+                <a href="#">Lan to Lan</a>
+                <a href="#">Link Dedicado</a>
+            </div>
+            <div class="links link-contato">
+                <h2>Contatos</h2>
+                <a href="#">Dúvidas Frequentes</a>
+                <a href="#">(69) 3422-3511</a>
+                <a href="#">vendas@ondaagil.com.br</a>
+            </div>
+            <div class="links link-redes">
+                <h2>Redes Sociais</h2>
+                <div class="row">
+                    <img src="./assets/images/svg/facebook.svg" alt="facebook-ico">
+                    <p>Facebook</p>
+                </div>
+                <div class="row">
+                    <img src="./assets/images/svg/instagram.svg" alt="instagram-ico">
+                    <p>Instagram</p>
+                </div>
+            </div>
+        </div>
+        <div class="empresa">
+            <p>R Jose da Silva e Cia LTDA — CNPJ: 84.751.411/0004-51</p>
+            <p>Todos os direitos reservados: © Onda Ágil Telecom — Site desenvolvido com ❤️ por lejaum.me</p>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/index.js"></script>

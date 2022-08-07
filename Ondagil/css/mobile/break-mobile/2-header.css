@@ -25,7 +25,7 @@
     }
 
     /* logo na esquerda da top bar */
-    header #logo {
+    .logo {
         /* altura da logo */
         height: 2.2rem;
     }

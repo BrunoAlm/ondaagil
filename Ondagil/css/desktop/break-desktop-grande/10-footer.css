@@ -1,0 +1,121 @@
+@media only screen and (min-width: 1700px) {
+
+    footer {
+        height: 512px;
+        background-color: var(--default-blue);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .info {
+        margin: 57px 0;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    footer .info hr {
+        margin: 20px 0;
+        width: 169px;
+    }
+
+    footer .info .anatel {
+        width: 169px;
+        border-radius: 6px;
+    }
+
+    footer .logo {
+        width: 256px;
+        height: 49px;
+        margin-left: -7px;
+    }
+
+    footer .links:first-child {
+        margin: 0;
+    }
+
+    footer .links {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 100px;
+    }
+
+    footer .links h2 {
+        font-weight: 700;
+        font-size: 34px;
+        color: var(--disabled-gray);
+        line-height: 36px;
+    }
+
+    footer .links a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: var(--disabled-gray);
+        text-decoration: none;
+        /* margin-left: 5px; */
+    }
+
+    footer .link-site a:nth-child(2) {
+        margin-top: 10px;
+
+    }
+
+    footer .link-site a:nth-child(5) {
+        margin: 20px 0;
+        /* margin-left: 5px; */
+
+    }
+
+    footer .link-planos a:nth-child(2) {
+        margin-top: 10px;
+    }
+
+    footer .link-planos a:nth-child(4) {
+        margin-top: 10px;
+    }
+
+    footer .link-contato a:nth-child(2) {
+        margin: 10px 0;
+        text-decoration: underline;
+    }
+
+    footer .row {
+        display: flex;
+        align-items: center;
+
+    }
+
+    footer .row:nth-child(2) {
+        margin-top: 10px;
+    }
+
+    footer .row p {
+        font-weight: 400;
+        font-size: 18px;
+        color: var(--disabled-gray);
+        line-height: 22px;
+    }
+
+
+    footer .row img {
+        height: 16.04px;
+        margin-right: 5px;
+    }
+
+    footer .empresa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    footer .empresa p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: var(--disabled-gray);
+    }
+
+
+}
