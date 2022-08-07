@@ -38,9 +38,11 @@
         color: var(--default-pink);
     }
 
-    #home-page .content p {
+    #home-page .content h3 {
         margin-top: 40px;
-        font-size: 18px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
         max-width: 100%;
     }
 

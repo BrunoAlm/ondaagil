@@ -1,1 +1,46 @@
-@media only screen and (min-width: 600px) { }
+/* tamanho de tela mobile */
+@media only screen and (min-width: 600px) and (max-width: 1300px){
+
+
+    /* top bar */
+    header {
+        /* cor e tamanho */
+        background-color: var(--default-blue);
+        width: 100vw;
+        height: 70px;
+        z-index: 1000;
+        /* alinha os itens */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        /* coloca padding horizontal de 14px */
+        padding: 0 14px;
+        position: fixed;
+        top: 0;
+        transition: top 0.2s ease-in-out;
+    }
+
+    .nav-up {
+        top: -70px;
+    }
+
+    /* logo na esquerda da top bar */
+    .logo {
+        /* altura da logo */
+        height: 2.2rem;
+    }
+
+    /* menu do desktop */
+    header #menu {
+        display: none;
+    }
+
+    /* botão drawer */
+    header #btn-mobile {
+        display: block;
+        border: none;
+        padding: 10px;
+        margin: 0 0 0 auto;
+    }
+}

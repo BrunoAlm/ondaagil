@@ -1,4 +1,7 @@
 @media only screen and (min-width: 1700px) {
+    #sobre-nos .title-mobile {
+        display: none;
+    }
 
     #sobre-nos {
         display: flex;

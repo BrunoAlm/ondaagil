@@ -1,1 +1,142 @@
-@media only screen and (min-width: 600px) { }
+@media only screen and (min-width: 600px) and (max-width: 1300px){
+
+    .pattern {
+        left: 0;
+        background-image: url('../../../assets/images/png/pattern/blue-pattern.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #planos {
+        justify-content: center;
+    }
+
+    #planos .titulo {
+        padding-top: 40px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #planos .titulo h2 {
+        color: var(--default-blue);
+        max-width: 90%;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+    #planos .w-400 {
+        font-weight: 400;
+    }
+
+    #planos .w-900 {
+        font-weight: 900;
+    }
+
+
+    /* .cards {
+        margin-top: 40px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        overflow-x: hidden;
+    } */
+    .cards-desktop {
+        display: none;
+    }
+
+    .cards-mobile {
+        display: block;
+    }
+
+    .slick-slide {
+        padding: 20px;
+    }
+
+    .card:first-child {
+        margin-left: 0;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 18px;
+        padding: 21px;
+        margin-left: 20px;
+    }
+
+    .card h2 {
+        font-weight: 300;
+        font-size: 22px;
+        color: var(--default-blue);
+        align-self: center;
+        text-transform: uppercase;
+    }
+
+    .card h1 {
+        font-family: AntennaComp;
+        color: var(--default-blue);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 76px;
+        align-self: center;
+        margin: 0;
+
+    }
+
+    .card hr {
+        margin: 12px 0;
+        background-color: var(--default-blue);
+        border: 1px var(--default-blue) solid;
+        width: 63px;
+        align-self: center;
+    }
+
+    .card .desc-plano {
+        display: flex;
+        align-items: center;
+    }
+
+    .card .desc-plano img {
+        height: 14px;
+    }
+
+    .card .desc-plano p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        margin-left: 9px;
+    }
+
+    .card .valor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card .valor p {
+        margin-top: 12px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        color: var(--default-gray);
+        align-self: center;
+    }
+
+    .card .valor h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .card button {
+        margin-top: 12px;
+    }
+}

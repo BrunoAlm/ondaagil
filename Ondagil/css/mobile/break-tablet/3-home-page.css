@@ -1,1 +1,73 @@
-@media only screen and (min-width: 600px) { }
+@media only screen and (min-width: 600px) and (max-width: 1300px){
+    #tela1 {
+        padding-top: 70px;
+        height: 80%;
+    }
+
+    #home-img-desktop {
+        display: block;
+        width: 50%;
+    }
+
+    #home-img-mobile {
+        display: none;
+    }
+
+    /* #home-img-mobile {
+        display: block;
+        position: absolute;
+        top: 65px;
+        left: 70%;
+        max-width: 240px;
+        z-index: -1;
+    } */
+
+    #home-page {
+        align-items: flex-start;
+    }
+
+    #home-page .content {
+        max-width: 100%;
+    }
+
+    #home-page .content h1 {
+        font-family: AntennaComp;
+        color: var(--default-blue);
+        /* font-size: 90px; */
+        font-size: 10rem;
+        line-height: 85%;
+        max-width: 70%;
+    }
+
+    .vermelho-main {
+        font-family: AntennaComp;
+        color: var(--default-pink);
+    }
+
+    #home-page .content h3 {
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        max-width: 100%;
+    }
+
+    #home-page .buttons {
+        display: flex;
+        margin-top: 24px;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    #home-page .buttons button {
+        margin-top: 10px;
+    }
+
+    #home-page .buttons p {
+        font-size: 22px;
+        line-height: 19px;
+        color: var(--default-gray);
+        margin: 0px 10px;
+    }
+
+}

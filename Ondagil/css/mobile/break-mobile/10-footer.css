@@ -1,21 +1,112 @@
-@media only screen and (min-width: 1300px) {
-
-    #footer-mobile {
+@media only screen and (max-width: 600px) {
+    #footer-desktop {
         display: none;
     }
+    footer .logo {
+        margin-left: -7px;
+    }
     footer {
-        height: 513px;
+        height: 750px;
         background-color: var(--default-blue);
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+        padding: 48px 15px;
+    }
+
+    footer a {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: var(--disabled-gray);
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    footer p {
+        font-size: 18px;
+        line-height: 22px;
+        color: var(--disabled-gray);
     }
 
     footer .info {
-        margin: 57px 0;
+        margin: 17px 0;
         display: flex;
-        align-items: flex-start;
+        width: 100%;
+        justify-content: space-between;
     }
+
+    footer .info .texto1 a:nth-child(4) { 
+        margin: 14px 0;
+    }
+
+    footer .info .texto1 a:nth-child(5) { 
+        margin-bottom:34px;
+    }
+
+    footer .info .texto2 a:nth-child(3) { 
+        margin-top: 14px;
+    }
+    footer .info .texto2 a:nth-child(5) { 
+        margin: 10px 0;
+    }
+    footer .info .texto2 {
+        max-width: 129px;
+    }
+
+    footer .column {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    footer .row {
+        display: flex;
+        align-items: center;
+    }
+
+    footer .row img {
+        height: 16.04px;
+        margin-right: 5px;
+    }
+
+    footer .anatel {
+        width: 201px;
+        border-radius: 6px;
+    }
+
+    footer .empresa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    footer .empresa hr {
+        width: 50%;
+        margin: 25px 0;
+    }
+
+    footer .empresa p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: var(--disabled-gray);
+        text-align: center;
+    }
+
+    footer .empresa p:nth-child(3) {
+        margin: 20px 0;
+    }
+
+    footer .empresa a {
+        text-decoration: underline;
+    }
+
+    /*
     footer .logo {
         width: 256px;
         margin-left: -42px;
@@ -50,8 +141,9 @@
         line-height: 22px;
         color: var(--disabled-gray);
         text-decoration: none;
-        /* margin-left: 5px; */
+        /* margin-left: 5px; 
     }
+
     footer .links a:hover {
         text-decoration: underline;
     }
@@ -63,7 +155,7 @@
 
     footer .link-site a:nth-child(5) {
         margin: 20px 0;
-        /* margin-left: 5px; */
+        /* margin-left: 5px; 
 
     }
 
@@ -113,10 +205,10 @@
     }
 
     footer .empresa a {
-        
+
         color: var(--disabled-gray);
 
-    }
+    } */
 
 
 }

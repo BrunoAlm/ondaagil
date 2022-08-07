@@ -1,21 +1,21 @@
-@media only screen and (min-width: 1700px) {
+@media only screen and (min-width: 600px) and (max-width: 1300px){
+
+
 
     #mais-controle {
-        height: 170%;
+        height: 160%!important;
     }
-
     .wrapper {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
     }
 
     #boxes {
         margin-top: 135px;
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
@@ -32,22 +32,19 @@
     }
 
     .box img {
-        height: 43.62px;
+        width: 62px;
         margin: 10px;
     }
 
     .box p {
         font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 14px;
         color: var(--hover-gray);
     }
 
     .box .azul-bold {
         font-weight: 600;
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 14px;
         color: var(--default-blue);
     }
-
 }
