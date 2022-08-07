@@ -9,7 +9,7 @@
         /* cor e tamanho */
         background-color: var(--default-blue);
         width: 100vw;
-        height: 80px;
+        height: 58px;
         z-index: 1000;
         /* alinha os itens */
         display: flex;
