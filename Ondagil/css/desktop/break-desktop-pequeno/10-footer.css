@@ -16,10 +16,10 @@
         display: flex;
         align-items: flex-start;
     }
-    footer .logo {
-        width: 256px;
-        margin-left: -42px;
-    }
+    /* footer .logo {
+        width: 180px;
+        /* margin-left: -42px; 
+    } */
 
     footer .info hr {
         margin: 20px 0;

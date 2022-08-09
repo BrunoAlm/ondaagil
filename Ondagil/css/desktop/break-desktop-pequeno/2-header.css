@@ -21,7 +21,11 @@
     /* logo na esquerda da top bar */
     .logo {
         /* altura da logo */
-        height: 2.2rem;
+        /* height: 2.4rem; */
+        width: 160px;
+        padding: 2px 6px 2px 0px;
+        background-color: rgba(255, 255, 255, 0.575);
+        border-radius: 6px;
     }
 
     /* botões */
