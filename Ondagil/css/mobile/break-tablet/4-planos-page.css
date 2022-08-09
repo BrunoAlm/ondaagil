@@ -9,25 +9,21 @@
         width: 100vw;
     }
 
+
     #planos {
         justify-content: center;
     }
 
     #planos .titulo {
-        padding-top: 40px;
-        padding-bottom: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        padding-top: 20px;
     }
 
     #planos .titulo h2 {
         color: var(--default-blue);
-        max-width: 90%;
         text-align: center;
         text-transform: uppercase;
-        font-size: 25px;
-        line-height: 36px;
+        font-size: 22px;
+        /* line-height: 36px; */
     }
 
     #planos .w-400 {
@@ -38,24 +34,18 @@
         font-weight: 900;
     }
 
-
-    /* .cards {
-        margin-top: 40px;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
-        overflow-x: hidden;
-    } */
-    .cards-desktop {
+    .cards-mobile {
         display: none;
     }
 
-    .cards-mobile {
-        display: block;
+    .cards-mobile .card {
+        display: none;
     }
 
-    .slick-slide {
-        padding: 20px;
+    .cards-desktop {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
     }
 
     .card:first-child {
@@ -69,12 +59,12 @@
         box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.15);
         border-radius: 18px;
         padding: 21px;
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     .card h2 {
         font-weight: 300;
-        font-size: 22px;
+        font-size: 14px;
         color: var(--default-blue);
         align-self: center;
         text-transform: uppercase;
@@ -85,7 +75,7 @@
         color: var(--default-blue);
         font-style: normal;
         font-weight: 700;
-        font-size: 76px;
+        font-size: 70px;
         align-self: center;
         margin: 0;
 
@@ -93,10 +83,11 @@
 
     .card hr {
         margin: 12px 0;
-        background-color: var(--default-blue);
         border: 1px var(--default-blue) solid;
+        background-color: var(--default-blue);
         width: 63px;
         align-self: center;
+
     }
 
     .card .desc-plano {
@@ -105,12 +96,12 @@
     }
 
     .card .desc-plano img {
-        height: 14px;
+        height: 12px;
     }
 
     .card .desc-plano p {
         font-weight: 400;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 160%;
         margin-left: 9px;
     }
@@ -122,9 +113,9 @@
     }
 
     .card .valor p {
-        margin-top: 12px;
+        margin-top: 8px;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 10px;
         line-height: 14px;
         color: var(--default-gray);
         align-self: center;
@@ -132,11 +123,11 @@
 
     .card .valor h2 {
         font-weight: 500;
-        font-size: 30px;
+        font-size: 25px;
         line-height: 36px;
     }
 
     .card button {
-        margin-top: 12px;
+        margin-top: 8px;
     }
 }

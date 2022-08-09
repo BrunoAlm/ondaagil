@@ -1,9 +1,7 @@
 @media only screen and (min-width: 600px) and (max-width: 1300px){
 
-
-
     #mais-controle {
-        height: 160%!important;
+        height: 170%;
     }
     .wrapper {
         width: 100%;
@@ -32,7 +30,7 @@
     }
 
     .box img {
-        width: 62px;
+        height: 43.62px;
         margin: 10px;
     }
 

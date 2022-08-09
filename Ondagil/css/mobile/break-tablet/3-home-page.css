@@ -6,24 +6,17 @@
 
     #home-img-desktop {
         display: block;
-        width: 50%;
+        width: 35%;
     }
 
     #home-img-mobile {
         display: none;
     }
 
-    /* #home-img-mobile {
-        display: block;
-        position: absolute;
-        top: 65px;
-        left: 70%;
-        max-width: 240px;
-        z-index: -1;
-    } */
-
     #home-page {
+        display: flex;
         align-items: flex-start;
+        justify-content: space-between;
     }
 
     #home-page .content {
@@ -33,30 +26,24 @@
     #home-page .content h1 {
         font-family: AntennaComp;
         color: var(--default-blue);
-        font-size: 90px;
-        /* font-size: 10rem; */
+        font-size: 100px;
         line-height: 85%;
-        max-width: 70%;
-    }
-
-    .vermelho-main {
-        font-family: AntennaComp;
-        color: var(--default-pink);
+        max-width: 95%;
     }
 
     #home-page .content h3 {
-        margin-top: 40px;
+        margin-top: 20px;
         font-weight: 400;
-        font-size: 28px;
+        font-size: 20px;
         line-height: 36px;
-        max-width: 100%;
+        max-width: 85%;
     }
 
     #home-page .buttons {
         display: flex;
         margin-top: 24px;
         flex-flow: row wrap;
-        align-items: center;
+        align-items: baseline;
     }
 
     #home-page .buttons button {
@@ -64,10 +51,11 @@
     }
 
     #home-page .buttons p {
-        font-size: 22px;
+        font-size: 12px;
         line-height: 19px;
         color: var(--default-gray);
         margin: 0px 10px;
     }
+
 
 }

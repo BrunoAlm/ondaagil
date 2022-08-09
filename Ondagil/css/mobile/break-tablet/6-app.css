@@ -1,25 +1,24 @@
 @media only screen and (min-width: 600px) and (max-width: 1300px){
 
 
-    #app-image-desktop {
+    #app-image-mobile {
         display: none;
     }
+
     .app {
-        margin-top: 100px;
+        margin-top: 133px;
         display: flex;
     }
 
-    #app-image-mobile {
-        margin-top: 15px;
-        height: 371px;
-        z-index: -1;
-        position: absolute;
-        left: 150px;
+    .app img {
+        width: 423.84px;
     }
 
-  
+    .app .texto {
+        margin-left: 24px;
+    }
+
     .app .texto h1 {
-        z-index: 2;
         font-family: AntennaComp;
         font-style: normal;
         font-weight: 700;
@@ -27,20 +26,23 @@
         line-height: 91%;
         text-transform: uppercase;
         color: var(--default-blue);
-        max-width: 85%;
+    }
+
+    .quebra-linha {
+        display: none;
     }
 
     .app .texto p {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 22px;
-        margin: 23px 0 26px 0;
+        margin: 8px 0 26px 0;
         color: var(--hover-gray);
-        text-align: justify;
     }
 
     .app .download-button img {
-        width: 140.09px;
+        width: 117.75px;
     }
+
     .app .download-button img:last-child {
         margin-left: 14px;
     }

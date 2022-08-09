@@ -22,21 +22,21 @@
         display: block;
         margin-top: 20px;
 
-        padding: 0px 14px;
+        padding: 0px 80px;
     }
 
     button {
         /* retira borda do botão */
         border: none;
         cursor: pointer;
-        padding: 3px 25px;
+        padding: 5px 20px;
 
         /* estilos retirados do figma */
         border-radius: 6px;
         background-color: var(--default-green);
         box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.15);
-        line-height: 26px;
-        font-size: 18px;
+        /* line-height: 26px; */
+        font-size: 12px;
         color: var(--hover-gray);
         font-weight: 500;
     }
