@@ -8,7 +8,6 @@
     body {
         position: relative;
         overflow-x: hidden;
-        height: 100%;
     }
 
     body {
@@ -17,12 +16,11 @@
     }
 
     section {
-        height: 100%;
         width: 100vw;
         display: block;
         margin-top: 20px;
 
-        padding: 0px 80px;
+        padding: 40px 80px;
     }
 
     button {
@@ -36,7 +34,7 @@
         background-color: var(--default-green);
         box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.15);
         /* line-height: 26px; */
-        font-size: 12px;
+        font-size: 10px;
         color: var(--hover-gray);
         font-weight: 500;
     }

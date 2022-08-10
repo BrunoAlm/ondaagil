@@ -17,11 +17,14 @@
         /* background: linear-gradient(90deg, rgba(0, 0, 0, 0.87) 20%, rgba(0, 0, 0, 0) 100%), url('../../../assets/images/png/pattern/fundo-soldado.png') no-repeat; */
         /* background-size: cover;
         background-repeat: no-repeat; */
-        height: 76vh;
-        width: 100vw;
+        height: 400px;
+        /* width: 100vw; */
     }
     #plano-mesh {
         display: flex;
+        /* height: 76vh; */
+        height: 100%;
+        padding: 0 80px;
         flex-direction: column;
         justify-content: center;
     }
@@ -30,7 +33,7 @@
         font-family: 'AntennaComp';
         font-style: normal;
         font-weight: 700;
-        font-size: 113px;
+        font-size: 60px;
         line-height: 91%;
         /* or 105px */
 
@@ -57,20 +60,19 @@
 
     #plano-mesh .row-desc p {
         color: var(--disabled-gray);
+        font-size: 10px;
     }
 
     #plano-mesh .mais-desc h2 {
         font-weight: 700;
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 20px;
         color: #F9F9F9;
         max-width: 60%;
         margin-bottom: 15px;
     }
 
     #plano-mesh .mais-desc p {
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 10px;
         color: #F9F9F9;
         max-width: 60%;
         margin-bottom: 15px;
@@ -85,8 +87,7 @@
         margin-left: 20px;
         font-style: italic;
         font-weight: 500;
-        font-size: 12px;
-        line-height: 14px;
+        font-size: 10px;
         color: #F9F9F9;
     }
 

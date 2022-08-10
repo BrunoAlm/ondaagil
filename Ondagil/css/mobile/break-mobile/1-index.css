@@ -7,7 +7,6 @@
     body {
         position: relative;
         overflow-x: hidden;
-        height: 100%;
     }
 
     body {
@@ -16,12 +15,11 @@
     }
 
     section {
-        height: 100%;
         width: 100vw;
         display: block;
         margin-top: 20px;
 
-        padding: 0px 14px;
+        padding: 20px 14px;
     }
 
     button {
@@ -35,7 +33,7 @@
         background-color: var(--default-green);
         box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.15);
         line-height: 26px;
-        font-size: 18px;
+        font-size: 16px;
         color: var(--hover-gray);
         font-weight: 500;
     }

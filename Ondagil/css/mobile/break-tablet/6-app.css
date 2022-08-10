@@ -6,12 +6,12 @@
     }
 
     .app {
-        margin-top: 133px;
+        margin-top: 50px;
         display: flex;
     }
 
     .app img {
-        width: 423.84px;
+        width: 40%;
     }
 
     .app .texto {
@@ -22,7 +22,7 @@
         font-family: AntennaComp;
         font-style: normal;
         font-weight: 700;
-        font-size: 100px;
+        font-size: 60px;
         line-height: 91%;
         text-transform: uppercase;
         color: var(--default-blue);
@@ -33,14 +33,13 @@
     }
 
     .app .texto p {
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 12px;
         margin: 8px 0 26px 0;
         color: var(--hover-gray);
     }
 
     .app .download-button img {
-        width: 117.75px;
+        width: 100px;
     }
 
     .app .download-button img:last-child {

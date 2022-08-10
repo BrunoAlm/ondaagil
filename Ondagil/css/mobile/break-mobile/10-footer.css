@@ -6,7 +6,7 @@
         margin-left: -7px;
     } */
     footer {
-        height: 750px;
+        height: 650px;
         background-color: var(--default-blue);
         display: flex;
         flex-direction: column;

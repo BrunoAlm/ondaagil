@@ -1,15 +1,14 @@
 @media only screen and (min-width: 1700px) {
     body {
-        height: calc(100vh - 70px);
+        height: 100vh;
         overflow-x: hidden;
         width: 100%;
     }
 
     section {
-        height: 100%;
         width: 100vw;
         display: block;
-        padding: 0px 128px;
+        padding: 60px 170px;
     }
 
     button {

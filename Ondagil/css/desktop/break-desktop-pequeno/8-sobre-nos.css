@@ -5,6 +5,7 @@
     }
 
     #sobre-nos {
+        padding: 50px 0;
         display: flex;
         height: 100%;
         justify-content: center;

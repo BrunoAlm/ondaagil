@@ -12,7 +12,7 @@
     }
 
     #boxes {
-        margin-top: 135px;
+        margin-top: 50px;
         width: 100%;
         display: flex;
         flex-flow: row wrap;

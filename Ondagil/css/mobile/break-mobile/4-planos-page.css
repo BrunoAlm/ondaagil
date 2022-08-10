@@ -4,17 +4,16 @@
         background-image: url('../../../assets/images/png/pattern/blue-pattern.png');
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
         width: 100vw;
     }
 
     #planos {
         justify-content: center;
+        padding: 40px 0;
+
     }
 
     #planos .titulo {
-        padding-top: 40px;
-        padding-bottom: 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -38,19 +37,13 @@
     }
 
 
-    /* .cards {
-        margin-top: 40px;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
-        overflow-x: hidden;
-    } */
     .cards-desktop {
         display: none;
     }
 
     .cards-mobile {
         display: block;
+        width: 100%;
     }
 
     .slick-slide {
@@ -84,7 +77,7 @@
         color: var(--default-blue);
         font-style: normal;
         font-weight: 700;
-        font-size: 76px;
+        font-size: 85px;
         align-self: center;
         margin: 0;
 
@@ -104,12 +97,12 @@
     }
 
     .card .desc-plano img {
-        height: 14px;
+        height: 16px;
     }
 
     .card .desc-plano p {
         font-weight: 400;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 160%;
         margin-left: 9px;
     }

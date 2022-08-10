@@ -20,6 +20,7 @@
 
 #drawer-menu img {
     height: 212px;
+    margin-bottom:  20px;
 }
 
 #drawer.active {
@@ -69,7 +70,7 @@
 }
 
 #drawer.active li {
-    margin: 27px 0px 10px 0px;
+    margin: 15px 0px 10px 0px;
     /* estilo do texto */
     border: 1.45728px solid #F9F9F9;
     border-radius: 8.74367px;

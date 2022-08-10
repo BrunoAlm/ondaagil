@@ -1,8 +1,6 @@
 @media only screen and (min-width: 600px) and (max-width: 1300px){
 
-    #mais-controle {
-        height: 170%;
-    }
+   
     .wrapper {
         width: 100%;
         display: flex;
@@ -12,7 +10,6 @@
     }
 
     #boxes {
-        margin-top: 135px;
         width: 100%;
         display: flex;
         flex-flow: row wrap;
@@ -22,7 +19,7 @@
     .box {
         display: flex;
         padding: 10px;
-        width: 460px;
+        width: 260px;
         margin: 8px;
         box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.15);
         border-radius: 12px;
@@ -30,19 +27,19 @@
     }
 
     .box img {
-        height: 43.62px;
-        margin: 10px;
+        height: 30px;
+        margin: 5px;
     }
 
     .box p {
         font-weight: 400;
-        font-size: 14px;
+        font-size: 10px;
         color: var(--hover-gray);
     }
 
     .box .azul-bold {
         font-weight: 600;
-        font-size: 14px;
+        font-size: 10px;
         color: var(--default-blue);
     }
 }

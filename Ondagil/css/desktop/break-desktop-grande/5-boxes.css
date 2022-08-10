@@ -1,8 +1,8 @@
 @media only screen and (min-width: 1700px) {
 
-    #mais-controle {
+    /* #mais-controle {
         height: 170%;
-    }
+    } */
 
     .wrapper {
         width: 100%;
@@ -14,7 +14,7 @@
     }
 
     #boxes {
-        margin-top: 135px;
+        /* margin-top: 135px; */
         width: 80%;
         display: flex;
         flex-flow: row wrap;

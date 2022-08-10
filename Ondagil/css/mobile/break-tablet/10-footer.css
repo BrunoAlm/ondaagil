@@ -24,11 +24,12 @@
 
     footer .info hr {
         margin: 20px 0;
-        width: 169px;
+        background-color: var(--disabled-gray);
+        width: 100px;
     }
 
     footer .info .anatel {
-        width: 169px;
+        width: 100px;
         border-radius: 6px;
     }
 
@@ -40,15 +41,15 @@
 
     footer .links h2 {
         font-weight: 700;
-        font-size: 26px;
+        font-size: 18px;
         color: var(--disabled-gray);
         line-height: 36px;
     }
 
     footer .links a {
         font-weight: 400;
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 10px;
+        line-height: 21px;
         color: var(--disabled-gray);
         text-decoration: none;
         /* margin-left: 5px; */

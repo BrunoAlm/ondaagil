@@ -32,7 +32,7 @@
         font-family: 'AntennaComp';
         font-style: normal;
         font-weight: 700;
-        font-size: 113px;
+        font-size: 150px;
         line-height: 91%;
         /* or 105px */
 
@@ -42,7 +42,7 @@
     }
 
     #plano-mesh .desc-plano {
-        margin: 15px 0;
+        margin: 35px 0;
         display: flex;
     }
 
@@ -53,29 +53,30 @@
     }
 
     #plano-mesh .row-desc img {
-        width: 17px;
-        margin: 5px;
+        width: 20px;
     }
 
     #plano-mesh .row-desc p {
         color: var(--disabled-gray);
+        font-size: 23px;
     }
 
     #plano-mesh .mais-desc h2 {
         font-weight: 700;
-        font-size: 28px;
+        font-size: 36px;
         line-height: 36px;
         color: #F9F9F9;
         max-width: 60%;
-        margin-bottom: 15px;
+        margin-bottom: 35px;
     }
 
     #plano-mesh .mais-desc p {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 22px;
         color: #F9F9F9;
         max-width: 60%;
-        margin-bottom: 15px;
+        margin-bottom: 35px;
+
     }
 
     #plano-mesh .row {

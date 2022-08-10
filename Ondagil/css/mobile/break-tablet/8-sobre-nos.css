@@ -13,34 +13,32 @@
     }
 
     #sobre-nos img {
-        width: 634px;
+        width: 50%;
         border-radius: 12px;
     }
 
     #sobre-nos .texto {
-        max-width: 414px;
+        max-width: 50%;
         margin-left: 20px;
-
     }
 
     #sobre-nos .texto h2 {
         font-weight: 700;
-        font-size: 30px;
-        line-height: 36px;
+        font-size: 20px;
         color: var(--default-blue);
     }
 
     #sobre-nos .texto p {
         font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 12px;
+        line-height: 18px;
         text-align: justify;
         color: var(--hover-gray);
     }
 
 
     #sobre-nos .texto p {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
 
